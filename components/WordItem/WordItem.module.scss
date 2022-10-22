@@ -1,0 +1,14 @@
+.word-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  .value {
+  }
+  .translate {
+    cursor: pointer;
+    &.cover {
+      color: transparent;
+      background-color: grey;
+    }
+  }
+}

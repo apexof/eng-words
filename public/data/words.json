@@ -1,0 +1,12 @@
+[
+  {
+    "value": "poor",
+    "translate": "бедный",
+    "tags": ["personality"]
+  },
+  {
+    "value": "rich",
+    "translate": "богатый",
+    "tags": ["personality"]
+  }
+]

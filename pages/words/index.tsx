@@ -1,14 +1,15 @@
 import { NextPage } from 'next';
 import React, { useEffect } from 'react';
-import { WordItem } from '../../components/WordItem/WordItem';
-import { addWords } from '../../state/words/words.reducer';
+import { addWords, addWordToUnlearned } from '../../state/words/words.reducer';
 import { WordType } from '../../types';
-import { useDispatch, useSelector } from 'react-redux';
-import { AppDispatch, AppState } from '../../state';
+import { useSelector } from 'react-redux';
+import { AppState, useAppDispatch } from '../../state';
+import { WordsList } from '../../components/WordsList/WordsList';
+import s from './index.module.scss';
 
 const WordsPage: NextPage = () => {
-  const dispatch = useDispatch<AppDispatch>();
-  const { allWords } = useSelector((state: AppState) => state.words);
+  const dispatch = useAppDispatch();
+  const { allWords, unlearnedWords } = useSelector((state: AppState) => state.words);
 
   useEffect(() => {
     fetch('data/words.json')
@@ -20,11 +21,15 @@ const WordsPage: NextPage = () => {
   }, []);
 
   return (
-    <div>
-      <h1>All Words</h1>
-      {allWords.map(word => (
-        <WordItem word={word} />
-      ))}
+    <div className={s['words-page']}>
+      <div className={s['words-block']}>
+        <h2>All Words</h2>
+        <WordsList words={allWords} />
+      </div>
+      <div className={s['words-block']}>
+        <h2>Unlearned Words</h2>
+        <WordsList words={Object.values(unlearnedWords)} />
+      </div>
     </div>
   );
 };

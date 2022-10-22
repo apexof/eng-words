@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -27,22 +23,10 @@
     "jsx": "preserve",
     "downlevelIteration": true,
     "allowSyntheticDefaultImports": true,
-    "types": [
-      "jest"
-    ],
-    "typeRoots": [
-      "./node_modules/@types"
-    ],
+    "types": ["jest"],
+    "typeRoots": ["./node_modules/@types"],
     "incremental": true
   },
-  "exclude": [
-    "node_modules",
-    "cypress"
-  ],
-  "include": [
-    "./src/**/*.ts",
-    "./src/**/*.tsx",
-    "src/components/Confetti/index.js",
-    "node_modules/eslint-plugin-react/lib/types.d.ts"
-  ]
+  "exclude": ["node_modules", "cypress"],
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "src/components/Confetti/index.js", "node_modules/eslint-plugin-react/lib/types.d.ts"]
 }

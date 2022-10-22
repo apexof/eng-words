@@ -1,17 +1,15 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { WordType } from '../../types';
+import { TWordsList, TWord } from '../../types';
 
-type WordsState = {
-  allWords: WordType[];
-  unlearnedWords: {
-    [key: string]: WordType;
-  };
+type TWordsState = {
+  allWords: TWordsList;
+  unlearnedWords: TWordsList;
 };
 
 // const lastBarsCache: Map<string, Bar> = new Map();
 
-const initialState: WordsState = {
-  allWords: [],
+const initialState: TWordsState = {
+  allWords: {},
   unlearnedWords: {},
 };
 
@@ -19,12 +17,12 @@ export const words = createSlice({
   name: 'words',
   initialState,
   reducers: {
-    addWords: (state, action: PayloadAction<{ items: WordType[] }>) => {
+    addWords: (state, action: PayloadAction<{ items: TWordsList }>) => {
       const { items } = action.payload;
 
       state.allWords = items;
     },
-    addWordToUnlearned: (state, action: PayloadAction<{ word: WordType }>) => {
+    addWordToUnlearned: (state, action: PayloadAction<{ word: TWord }>) => {
       const { word } = action.payload;
 
       state.unlearnedWords[word.value] = word;

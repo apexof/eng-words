@@ -1,12 +1,142 @@
-[
-  {
+{
+  "poor": {
     "value": "poor",
     "translate": "бедный",
     "tags": ["personality"]
   },
-  {
+  "rich": {
     "value": "rich",
     "translate": "богатый",
     "tags": ["personality"]
+  },
+  "for sure": {
+    "value": "for sure",
+    "translate": "конечно",
+    "tags": ["phrases"]
+  },
+  "make sense": {
+    "value": "make sense",
+    "translate": "имеет смысл",
+    "tags": ["phrases"]
+  },
+  "advanced": {
+    "value": "advanced",
+    "translate": "",
+    "tags": []
+  },
+  "adults": {
+    "value": "adults",
+    "translate": "",
+    "tags": []
+  },
+  "complicated": {
+    "value": "complicated",
+    "translate": "",
+    "tags": []
+  },
+  "introduced": {
+    "value": "introduced",
+    "translate": "",
+    "tags": []
+  },
+  "growing": {
+    "value": "growing",
+    "translate": "",
+    "tags": []
+  },
+  "sometimes": {
+    "value": "sometimes",
+    "translate": "иногда",
+    "tags": []
+  },
+  "i mean": {
+    "value": "i mean",
+    "translate": "я имею в виду",
+    "tags": []
+  },
+  "tip": {
+    "value": "tip",
+    "translate": "совет",
+    "tags": []
+  },
+  "all the time": {
+    "value": "all the time",
+    "translate": "постоянно",
+    "tags": []
+  },
+  "promise": {
+    "value": "promise",
+    "translate": "обещание",
+    "tags": []
+  },
+  "believe": {
+    "value": "believe",
+    "translate": "полагать, верить",
+    "tags": []
+  },
+  "coach": {
+    "value": "coach",
+    "translate": "тренер",
+    "tags": []
+  },
+  "blow": {
+    "value": "blow",
+    "translate": "дуть",
+    "tags": []
+  },
+  "mentor": {
+    "value": "mentor",
+    "translate": "наставник",
+    "tags": []
+  },
+  "anything": {
+    "value": "anything",
+    "translate": "что угодно",
+    "tags": []
+  },
+  "look": {
+    "value": "look",
+    "translate": "смотреть",
+    "tags": []
+  },
+  "watch": {
+    "value": "watch",
+    "translate": "смотреть",
+    "tags": []
+  },
+  "see": {
+    "value": "see",
+    "translate": "видеть",
+    "tags": []
+  },
+  "tell": {
+    "value": "tell",
+    "translate": "рассказать",
+    "tags": []
+  },
+  "once": {
+    "value": "once",
+    "translate": "однажды",
+    "tags": []
+  },
+  "several": {
+    "value": "several",
+    "translate": "несколько",
+    "tags": []
+  },
+  "before": {
+    "value": "before",
+    "translate": "прежде",
+    "tags": []
+  },
+  "after": {
+    "value": "after",
+    "translate": "после",
+    "tags": []
+  },
+  "": {
+    "value": "",
+    "translate": "",
+    "tags": []
   }
-]
+}

@@ -19,10 +19,6 @@ export const WordItem: FC<Props> = props => {
     setCover(cover => !cover);
   };
 
-  const addToUnlearned = () => {
-    d(addWordToUnlearned({ word }));
-  };
-
   const addIcon = () => {
     return (
       <div className={cx(s['add-icon'], s.icon)} onClick={() => d(addWordToUnlearned({ word }))}>

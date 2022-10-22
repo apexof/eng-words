@@ -13,7 +13,7 @@ type TAllCategories = { [key: string]: string };
 
 export const WordsList: FC<Props> = props => {
   const { words: unsortedWords, switchLayout } = props;
-  const [showByCategory, setShowByCategory] = useState(true);
+  const [showByCategory, setShowByCategory] = useState(false);
   const words = unsortedWords.sort((a, b) => a.value.localeCompare(b.value));
 
   const layoutSwitcher = () => {

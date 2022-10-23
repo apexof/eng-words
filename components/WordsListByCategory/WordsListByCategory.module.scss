@@ -1,0 +1,27 @@
+.word-list-by-category {
+  .category-header {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 3px;
+    .category-title {
+      font-weight: 500;
+      cursor: pointer;
+    }
+    .show-btn {
+      margin-right: 5px;
+      cursor: pointer;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      border: 1px solid grey;
+      color: grey;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  div.infinite {
+    max-height: unset;
+    min-width: unset;
+  }
+}

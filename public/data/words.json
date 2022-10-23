@@ -1029,8 +1029,8 @@
     "translate": "рано",
     "tags": []
   },
-  "Don't be late": {
-    "value": "Don't be late",
+  "don't be late": {
+    "value": "don't be late",
     "translate": "Не опаздывайте",
     "tags": ["phrases"]
   },

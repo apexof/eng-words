@@ -5,6 +5,7 @@ import { AppState, useAppDispatch } from '../../state';
 import { addWordToUnlearned, removeWordFromUnlearned } from '../../state/words/words.reducer';
 import { useSelector } from 'react-redux';
 import { TWord } from '../../types';
+import { TooltipOrDiv } from '../Tooltip/Tooltip';
 import { Tooltip } from 'antd';
 
 interface Props {
@@ -16,10 +17,6 @@ export const Word: FC<Props> = props => {
   const [cover, setCover] = useState(true);
   const { unlearnedWords } = useSelector((state: AppState) => state.words);
   const d = useAppDispatch();
-
-  const coverToggle = () => {
-    setCover(cover => !cover);
-  };
 
   const addIcon = () => {
     return (
@@ -43,25 +40,15 @@ export const Word: FC<Props> = props => {
 
   const isUnlearned = unlearnedWords[word.value];
 
-  const translateJsx = () => {
-    return (
-      <div className={cx(s.translate, cover && s.cover)} onClick={coverToggle}>
-        {word.translate}
-      </div>
-    );
-  };
-
   return (
     <div className={s['word-item']}>
       {isUnlearned ? removeIcon() : addIcon()}
-      <div className="value">{word.value}</div>&nbsp;-&nbsp;
-      {cover ? (
-        <Tooltip placement="topLeft" title={'Click for discover'}>
-          {translateJsx()}
-        </Tooltip>
-      ) : (
-        translateJsx()
-      )}
+      <div className={s.value}>{word.value}</div>&nbsp;-&nbsp;
+      <TooltipOrDiv placement="topLeft" title={cover ? 'Click for discover' : undefined}>
+        <div className={cx(s.translate, cover && s.cover)} onClick={() => setCover(!cover)}>
+          {word.translate}
+        </div>
+      </TooltipOrDiv>
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React, { FC, useMemo, useState } from 'react';
 import { TWord } from '../../types';
-import { WordsListByCategory } from './WordsListByCategory';
 import { SimpleWordsList } from './SimpleWordsList';
 import { WordsListHeader } from '../WordsListHeader/WordsListHeader';
+import { AllCategoryList } from './AllCategoryList';
 
 interface Props {
   words: TWord[];
@@ -20,7 +20,7 @@ export const WordsList: FC<Props> = props => {
   return (
     <div>
       <WordsListHeader showByCategory={showByCategory} sorted={sorted} setShowByCategory={setShowByCategory} setSorted={setSorted} />
-      {showByCategory ? <WordsListByCategory words={sortedWords} /> : <SimpleWordsList words={sortedWords} />}
+      {showByCategory ? <AllCategoryList words={sortedWords} /> : <SimpleWordsList words={sortedWords} />}
     </div>
   );
 };

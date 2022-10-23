@@ -14,13 +14,9 @@ export const WordsListByCategory: FC<Props> = props => {
 
   return (
     <div className={s['word-list-by-category']}>
-      <div className={s['category-header']}>
-        <div onClick={() => setIsOpen(!isOpen)} className={s['show-btn']}>
-          {isOpen ? '-' : '+'}
-        </div>
-        <div onClick={() => setIsOpen(!isOpen)} className={s['category-title']}>
-          [{categoryName}]
-        </div>
+      <div onClick={() => setIsOpen(!isOpen)} className={s['category-header']}>
+        <div className={s['show-btn']}>{isOpen ? '-' : '+'}</div>
+        <div className={s['category-title']}>[{categoryName}]</div>
       </div>
 
       {isOpen && <SimpleWordsList className={s.infinite} words={words} />}

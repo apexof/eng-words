@@ -1,65 +1,26 @@
-import React, { FC, useState } from 'react';
-import { Word } from '../../components/WordItem/WordItem';
+import React, { FC, useMemo, useState } from 'react';
 import { TWord } from '../../types';
-import s from './WordsList.module.scss';
-import { Tooltip } from 'antd';
+import { WordsListByCategory } from './WordsListByCategory';
+import { SimpleWordsList } from './SimpleWordsList';
+import { WordsListHeader } from '../WordsListHeader/WordsListHeader';
 
 interface Props {
   words: TWord[];
-  switchLayout?: boolean;
 }
 
-type TAllCategories = { [key: string]: string };
-
 export const WordsList: FC<Props> = props => {
-  const { words: unsortedWords, switchLayout } = props;
+  const { words } = props;
   const [showByCategory, setShowByCategory] = useState(false);
-  const words = unsortedWords.sort((a, b) => a.value.localeCompare(b.value));
+  const [sorted, setSorted] = useState(false);
 
-  const layoutSwitcher = () => {
-    return (
-      <Tooltip placement="topLeft" title="Click to switch Layout">
-        <h3 className={s['show-type']} onClick={() => setShowByCategory(value => !value)}>
-          Layout: {showByCategory ? 'By category' : 'Everything'}
-        </h3>
-      </Tooltip>
-    );
-  };
+  const sortedWords = useMemo(() => {
+    return !sorted ? words : [...words].sort((a, b) => a.value.localeCompare(b.value));
+  }, [sorted, words]);
 
-  if (showByCategory && switchLayout) {
-    const allCategories: TAllCategories = words.reduce((acc, word) => {
-      word.tags.forEach(tag => {
-        acc[tag] = tag;
-      });
-      return acc;
-    }, {});
-    return (
-      <div>
-        {layoutSwitcher()}
-        {Object.values(allCategories).map(cat => {
-          const wordOfCurrentCat = words.filter(word => word.tags.includes(cat));
-          return (
-            <>
-              <div className={s['category-title']}>[{cat}]</div>
-              <div className={s['word-list']}>
-                {wordOfCurrentCat.map(word => (
-                  <Word word={word} />
-                ))}
-              </div>
-            </>
-          );
-        })}
-      </div>
-    );
-  }
   return (
     <div>
-      {switchLayout && layoutSwitcher()}
-      <div className={s['word-list']}>
-        {words.map(word => (
-          <Word word={word} />
-        ))}
-      </div>
+      <WordsListHeader showByCategory={showByCategory} sorted={sorted} setShowByCategory={setShowByCategory} setSorted={setSorted} />
+      {showByCategory ? <WordsListByCategory words={sortedWords} /> : <SimpleWordsList words={sortedWords} />}
     </div>
   );
 };

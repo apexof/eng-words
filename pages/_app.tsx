@@ -2,13 +2,16 @@ import 'antd/dist/antd.css';
 import '../styles/globals.scss';
 import type { AppProps } from 'next/app';
 import { Provider } from 'react-redux';
-import store from '../state';
+import store, { persistor } from '../state';
 import React from 'react';
+import { PersistGate } from 'redux-persist/integration/react';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Provider store={store}>
-      <Component {...pageProps} />
+      <PersistGate loading={null} persistor={persistor}>
+        <Component {...pageProps} />
+      </PersistGate>
     </Provider>
   );
 }

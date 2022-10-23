@@ -1,0 +1,12 @@
+.words-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .show-type-btn {
+    cursor: pointer;
+  }
+  .sort-btn {
+    display: flex;
+    cursor: pointer;
+  }
+}

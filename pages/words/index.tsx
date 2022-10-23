@@ -26,7 +26,7 @@ const WordsPage: NextPage = () => {
     <div className={s['words-page']}>
       <div className={s['words-block']}>
         <h2>All Words</h2>
-        <WordsList switchLayout words={Object.values(allWords)} />
+        <WordsList words={Object.values(allWords)} />
       </div>
       <div className={s['words-block']}>
         <h2>Unlearned Words</h2>

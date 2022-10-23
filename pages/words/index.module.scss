@@ -1,4 +1,7 @@
 .words-page {
   display: flex;
   gap: 150px;
+  .words-block {
+    width: 35%;
+  }
 }

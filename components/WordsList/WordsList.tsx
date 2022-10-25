@@ -18,9 +18,9 @@ export const WordsList: FC<Props> = props => {
   }, [sorted, words]);
 
   return (
-    <div>
+    <>
       <WordsListHeader showByCategory={showByCategory} sorted={sorted} setShowByCategory={setShowByCategory} setSorted={setSorted} />
       {showByCategory ? <AllCategoryList words={sortedWords} /> : <SimpleWordsList words={sortedWords} />}
-    </div>
+    </>
   );
 };

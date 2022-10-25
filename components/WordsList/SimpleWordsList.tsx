@@ -15,7 +15,7 @@ export const SimpleWordsList: FC<Props> = props => {
   return (
     <div className={cx(s['word-list'], className)}>
       {words.map(word => (
-        <Word word={word} />
+        <Word key={word.value} word={word} />
       ))}
     </div>
   );

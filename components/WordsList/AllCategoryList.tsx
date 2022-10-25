@@ -23,7 +23,7 @@ export const AllCategoryList: FC<Props> = props => {
     <div className={s['all-category-list']}>
       {Object.values(allCategories).map(categoryName => {
         const wordOfCurrentCat = words.filter(word => word.tags.includes(categoryName));
-        return <WordsListByCategory words={wordOfCurrentCat} categoryName={categoryName} />;
+        return <WordsListByCategory key={categoryName} words={wordOfCurrentCat} categoryName={categoryName} />;
       })}
     </div>
   );

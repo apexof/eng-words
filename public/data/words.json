@@ -1,4 +1,9 @@
 {
+  "essentially": {
+    "value": "essentially",
+    "translate": "по сути",
+    "tags": ["adverbs"]
+  },
   "poor": {
     "value": "poor",
     "translate": "бедный",

@@ -15,6 +15,9 @@ export const Word: FC<Props> = props => {
   const [cover, setCover] = useState(true);
   const { unlearnedWords } = useSelector((state: AppState) => state.words);
   const d = useAppDispatch();
+  if (word.value === 'pure') {
+    console.log('Word render');
+  }
 
   const addIcon = () => {
     return (

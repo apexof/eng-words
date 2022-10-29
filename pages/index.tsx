@@ -1,30 +1,19 @@
 import { NextPage } from 'next';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useSelector } from 'react-redux';
 import { WordsList } from '../components/WordsList/WordsList';
-import { AppState, useAppDispatch } from '../state';
-import { addWords } from '../state/words/words.reducer';
-import { TWordsList } from '../types';
+import { AppState } from '../state';
+import { AllWordsList } from '../components/AllWordsList/AllWordsList';
 import s from './index.module.scss';
 
 const WordsPage: NextPage = () => {
-  const dispatch = useAppDispatch();
-  const { allWords, unlearnedWords } = useSelector((state: AppState) => state.words);
+  const unlearnedWords = useSelector((state: AppState) => state.words.unlearnedWords);
 
-  useEffect(() => {
-    fetch('data/words.json')
-      .then(res => res.json())
-      .then((res: TWordsList) => {
-        dispatch(addWords({ items: res }));
-      })
-      .catch(console.error);
-  }, []);
-
+  console.log('WordsPage render');
   return (
     <div className={s['words-page']}>
       <div className={s['words-block']}>
-        <h2>All Words</h2>
-        <WordsList words={Object.values(allWords)} />
+        <AllWordsList />
       </div>
       <div className={s['words-block']}>
         <h2>Unlearned Words</h2>

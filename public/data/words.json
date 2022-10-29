@@ -1,4 +1,64 @@
 {
+  "grand": {
+    "value": "grand",
+    "translate": "тысяча",
+    "tags": []
+  },
+  "specific": {
+    "value": "specific",
+    "translate": "конкретный",
+    "tags": []
+  },
+  "common": {
+    "value": "common",
+    "translate": "общий (вещь)",
+    "tags": []
+  },
+  "terrified": {
+    "value": "terrified",
+    "translate": "испуганный",
+    "tags": ["personality"]
+  },
+  "horrified": {
+    "value": "horrified",
+    "translate": "ужас",
+    "tags": []
+  },
+  "suffer": {
+    "value": "suffer",
+    "translate": "страдать",
+    "tags": []
+  },
+  "groceries": {
+    "value": "groceries",
+    "translate": "продукты",
+    "tags": []
+  },
+  "employ": {
+    "value": "employ",
+    "translate": "нанимать",
+    "tags": ["job"]
+  },
+  "employer": {
+    "value": "employer",
+    "translate": "работадатель",
+    "tags": ["job"]
+  },
+  "overtime": {
+    "value": "overtime",
+    "translate": "сверхурочно",
+    "tags": ["job"]
+  },
+  "look forward": {
+    "value": "look forward",
+    "translate": "ждать с нетерпением",
+    "tags": ["job"]
+  },
+  "decrease": {
+    "value": "decrease",
+    "translate": "снижаться",
+    "tags": []
+  },
   "essentially": {
     "value": "essentially",
     "translate": "по сути",
@@ -586,7 +646,7 @@
   },
   "general": {
     "value": "general",
-    "translate": "общий",
+    "translate": "общий (глобально)",
     "tags": []
   },
   "rejected": {
@@ -601,7 +661,7 @@
   },
   "approach": {
     "value": "approach",
-    "translate": "приближаться",
+    "translate": "приближаться, метод",
     "tags": []
   },
   "adorable": {
@@ -731,7 +791,7 @@
   },
   "kind": {
     "value": "kind",
-    "translate": "добрый",
+    "translate": "добрый, тип",
     "tags": ["personality"]
   },
   "bright": {

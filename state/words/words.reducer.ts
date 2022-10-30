@@ -4,11 +4,13 @@ import { TWordsList, TWord } from '../../types';
 type TWordsState = {
   allWords: TWordsList;
   unlearnedWords: TWordsList;
+  coverTranslate: boolean;
 };
 
 const initialState: TWordsState = {
   allWords: {},
   unlearnedWords: {},
+  coverTranslate: true,
 };
 
 export const words = createSlice({
@@ -30,7 +32,10 @@ export const words = createSlice({
 
       delete state.unlearnedWords[key];
     },
+    toggleCoverTranslate: state => {
+      state.coverTranslate = !state.coverTranslate;
+    },
   },
 });
 
-export const { addWords, addWordToUnlearned, removeWordFromUnlearned } = words.actions;
+export const { toggleCoverTranslate, addWords, addWordToUnlearned, removeWordFromUnlearned } = words.actions;

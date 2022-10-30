@@ -5,6 +5,8 @@ import { AppState, useAppDispatch } from '../../state';
 import { addWordToUnlearned, removeWordFromUnlearned } from '../../state/words/words.reducer';
 import { useSelector } from 'react-redux';
 import { TWord } from '../../types';
+import { selectUnlearnedWords } from '../../state/words/words.selectors';
+import App from 'next/app';
 
 interface Props {
   word: TWord;
@@ -13,7 +15,8 @@ interface Props {
 export const Word: FC<Props> = props => {
   const { word } = props;
   const [cover, setCover] = useState(true);
-  const { unlearnedWords } = useSelector((state: AppState) => state.words);
+  const unlearnedWords = useSelector(selectUnlearnedWords);
+  const coverTranslate = useSelector((state: AppState) => state.words.coverTranslate);
   const d = useAppDispatch();
 
   const addIcon = () => {
@@ -37,8 +40,21 @@ export const Word: FC<Props> = props => {
   return (
     <div className={s['word-item']}>
       {isUnlearned ? removeIcon() : addIcon()}
-      <div className={s.value}>{word.value}</div>&nbsp;-&nbsp;
-      <div className={cx(s.translate, cover && s.cover)} onClick={() => setCover(!cover)}>
+      <div
+        className={cx(s.value, cover && !coverTranslate && s.cover, !coverTranslate && s.coverable)}
+        onClick={() => {
+          !coverTranslate && setCover(!cover);
+        }}
+      >
+        {word.value}
+      </div>
+      &nbsp;-&nbsp;
+      <div
+        className={cx(s.translate, cover && coverTranslate && s.cover, coverTranslate && s.coverable)}
+        onClick={() => {
+          coverTranslate && setCover(!cover);
+        }}
+      >
         {word.translate}
       </div>
     </div>

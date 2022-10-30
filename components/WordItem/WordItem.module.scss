@@ -26,16 +26,19 @@
     color: red;
   }
   .value {
-    min-width: 30%;
+    min-width: 35%;
     text-align: right;
   }
   .translate {
+    width: 55%;
+  }
+  .coverable {
     cursor: pointer;
-    width: 60%;
+  }
+  .cover {
+    cursor: pointer;
     border-radius: 6px;
-    &.cover {
-      color: transparent;
-      background-color: grey;
-    }
+    color: transparent;
+    background-color: grey;
   }
 }

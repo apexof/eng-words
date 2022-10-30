@@ -1,4 +1,7 @@
 import React, { FC } from 'react';
+import { useSelector } from 'react-redux';
+import { AppState, useAppDispatch } from '../../state';
+import { toggleCoverTranslate } from '../../state/words/words.reducer';
 import s from './WordsListHeader.module.scss';
 
 interface Props {
@@ -10,15 +13,16 @@ interface Props {
 
 export const WordsListHeader: FC<Props> = props => {
   const { showByCategory, setShowByCategory, setSorted, sorted } = props;
+  const dispatch = useAppDispatch();
+  const coverTranslate = useSelector((state: AppState) => state.words.coverTranslate);
 
   return (
     <div className={s['words-list-header']}>
-      <h3 className={s['show-type-btn']} onClick={() => setShowByCategory(!showByCategory)}>
-        Layout:&nbsp;[{showByCategory ? 'By category' : 'Everything'}]
-      </h3>
-      <h3 className={s['sort-btn']} onClick={() => setSorted(!sorted)}>
+      <h4 onClick={() => setShowByCategory(!showByCategory)}>Layout:&nbsp;[{showByCategory ? 'By category' : 'Everything'}]</h4>
+      <h4 className={s['sort-btn']} onClick={() => setSorted(!sorted)}>
         Sort by:&nbsp;[{sorted ? 'alphabet' : 'date'}]
-      </h3>
+      </h4>
+      <h4 onClick={() => dispatch(toggleCoverTranslate())}>Cover: [{coverTranslate ? 'translate' : 'value'}]</h4>
     </div>
   );
 };

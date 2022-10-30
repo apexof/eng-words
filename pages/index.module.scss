@@ -1,11 +1,11 @@
 .words-page {
   display: flex;
-  gap: 150px;
+  gap: 50px;
   height: 100%;
   padding: 30px 40px 60px;
   .words-block {
-    width: 35%;
-    min-width: 420px;
+    width: 50%;
+    min-width: 450px;
     display: flex;
     flex-direction: column;
   }

@@ -1,13 +1,14 @@
 import React, { FC, useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import { AppState, useAppDispatch } from '../../state';
+import { useAppDispatch } from '../../state';
 import { addWords } from '../../state/words/words.reducer';
+import { selectAllWords } from '../../state/words/words.selectors';
 import { TWordsList } from '../../types';
 import { WordsList } from '../WordsList/WordsList';
 
 export const AllWordsList: FC = () => {
   const dispatch = useAppDispatch();
-  const allWords = useSelector((state: AppState) => state.words.allWords);
+  const allWords = useSelector(selectAllWords);
 
   useEffect(() => {
     fetch('data/words.json')

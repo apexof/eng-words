@@ -6,8 +6,6 @@ type TWordsState = {
   unlearnedWords: TWordsList;
 };
 
-// const lastBarsCache: Map<string, Bar> = new Map();
-
 const initialState: TWordsState = {
   allWords: {},
   unlearnedWords: {},

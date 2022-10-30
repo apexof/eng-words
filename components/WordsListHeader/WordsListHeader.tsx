@@ -1,4 +1,3 @@
-import { Tooltip } from 'antd';
 import React, { FC } from 'react';
 import s from './WordsListHeader.module.scss';
 

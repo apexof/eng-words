@@ -1,4 +1,74 @@
 {
+  "take after": {
+    "value": "take after",
+    "translate": "унаследовать",
+    "tags": ["phrasal verb"]
+  },
+  "take part in": {
+    "value": "take part in",
+    "translate": "принимать участие в",
+    "tags": ["phrasal verb"]
+  },
+  "take off": {
+    "value": "take off",
+    "translate": "раздеваться",
+    "tags": ["phrasal verb"]
+  },
+  "take care of": {
+    "value": "take care of",
+    "translate": "заботиться",
+    "tags": ["phrasal verb"]
+  },
+  "take your time": {
+    "value": "take your time",
+    "translate": "не торопись",
+    "tags": ["phrasal verb"]
+  },
+  "take up": {
+    "value": "take up",
+    "translate": "начинать, браться за",
+    "tags": ["phrasal verb"]
+  },
+  "take place": {
+    "value": "take place",
+    "translate": "проводить",
+    "tags": ["phrasal verb"]
+  },
+  "taking advantage": {
+    "value": "taking advantage",
+    "translate": "извлекать выгоду",
+    "tags": ["phrasal verb"]
+  },
+  "take a deep breath": {
+    "value": "take a deep breath",
+    "translate": "сделать глубокий вдох",
+    "tags": ["phrasal verb"]
+  },
+  "takes office": {
+    "value": "takes office",
+    "translate": "вступить в должность",
+    "tags": ["phrasal verb"]
+  },
+  "": {
+    "value": "",
+    "translate": "",
+    "tags": []
+  },
+  "": {
+    "value": "",
+    "translate": "",
+    "tags": []
+  },
+  "": {
+    "value": "",
+    "translate": "",
+    "tags": []
+  },
+  "": {
+    "value": "",
+    "translate": "",
+    "tags": []
+  },
   "grand": {
     "value": "grand",
     "translate": "тысяча",

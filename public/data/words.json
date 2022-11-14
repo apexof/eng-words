@@ -1,4 +1,9 @@
 {
+  "disrupt": {
+    "value": "disrupt",
+    "translate": "нарушать огорчать",
+    "tags": []
+  },
   "gradually": {
     "value": "gradually",
     "translate": "постепенно",

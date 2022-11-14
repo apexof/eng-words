@@ -1,4 +1,129 @@
 {
+  "gradually": {
+    "value": "gradually",
+    "translate": "постепенно",
+    "tags": ["adverbs"]
+  },
+  "far cry": {
+    "value": "far cry",
+    "translate": "большая разница",
+    "tags": []
+  },
+  "announcement": {
+    "value": "announcement",
+    "translate": "объявление",
+    "tags": []
+  },
+  "decade": {
+    "value": "decade",
+    "translate": "десятилетие",
+    "tags": []
+  },
+  "entrepreneur": {
+    "value": "entrepreneur",
+    "translate": "Предприниматель",
+    "tags": ["finance"]
+  },
+  "be fascinated with": {
+    "value": "be fascinated with",
+    "translate": "быть очарованным",
+    "tags": ["phrases"]
+  },
+  "thanks to": {
+    "value": "thanks to",
+    "translate": "благодаря",
+    "tags": []
+  },
+  "especially": {
+    "value": "especially",
+    "translate": "особенно",
+    "tags": ["adverbs"]
+  },
+  "roughly": {
+    "value": "roughly",
+    "translate": "грубо",
+    "tags": []
+  },
+  "grades marks": {
+    "value": "grades marks",
+    "translate": "оценки",
+    "tags": []
+  },
+  "attempt": {
+    "value": "attempt",
+    "translate": "попытка",
+    "tags": []
+  },
+  "pressure": {
+    "value": "pressure",
+    "translate": "давление",
+    "tags": []
+  },
+  "opportunity": {
+    "value": "opportunity",
+    "translate": "возможность",
+    "tags": []
+  },
+  "fortunate": {
+    "value": "fortunate",
+    "translate": "повезло",
+    "tags": []
+  },
+  "affect": {
+    "value": "affect",
+    "translate": "оказывать воздействие",
+    "tags": []
+  },
+  "relavant": {
+    "value": "relavant",
+    "translate": "актуальный",
+    "tags": []
+  },
+  "revenue stream": {
+    "value": "revenue stream",
+    "translate": "поток дохода",
+    "tags": ["finance"]
+  },
+  "high profile people": {
+    "value": "high profile people",
+    "translate": "известные люди",
+    "tags": []
+  },
+  "concern": {
+    "value": "concern",
+    "translate": "беспокойство",
+    "tags": []
+  },
+  "ultimately": {
+    "value": "ultimately",
+    "translate": "в конечном счете",
+    "tags": ["adverbs"]
+  },
+  "themselves": {
+    "value": "themselves",
+    "translate": "сами себя",
+    "tags": []
+  },
+  "within": {
+    "value": "within",
+    "translate": "в пределах",
+    "tags": []
+  },
+  "purchase": {
+    "value": "purchase",
+    "translate": "покупать",
+    "tags": ["finance"]
+  },
+  "goods": {
+    "value": "goods",
+    "translate": "товары",
+    "tags": []
+  },
+  "noticed": {
+    "value": "noticed",
+    "translate": "обратил внимание",
+    "tags": []
+  },
   "take after": {
     "value": "take after",
     "translate": "унаследовать",
@@ -54,8 +179,8 @@
     "translate": "тысяча",
     "tags": []
   },
-  "specific": {
-    "value": "specific",
+  "specific particular": {
+    "value": "specific particular",
     "translate": "конкретный",
     "tags": []
   },

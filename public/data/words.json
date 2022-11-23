@@ -706,7 +706,7 @@
   },
   "addiction": {
     "value": "addiction",
-    "translate": "зависимостьfortune",
+    "translate": "зависимость",
     "tags": []
   },
   "fortune": {
@@ -716,11 +716,11 @@
   },
   "decision": {
     "value": "decision",
-    "translate": "решение, выбор",
+    "translate": "решение(выбор)",
     "tags": []
   },
-  "Solution": {
-    "value": "Solution",
+  "solution": {
+    "value": "solution",
     "translate": "решение (задачи)",
     "tags": ["job"]
   },

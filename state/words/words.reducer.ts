@@ -5,12 +5,16 @@ type TWordsState = {
   allWords: TWordsList;
   unlearnedWords: TWordsList;
   coverTranslate: boolean;
+  showByCategory: boolean;
+  sort: boolean;
 };
 
 const initialState: TWordsState = {
   allWords: {},
   unlearnedWords: {},
   coverTranslate: true,
+  showByCategory: false,
+  sort: false,
 };
 
 export const words = createSlice({
@@ -35,7 +39,13 @@ export const words = createSlice({
     toggleCoverTranslate: state => {
       state.coverTranslate = !state.coverTranslate;
     },
+    toggleShowByCategory: state => {
+      state.showByCategory = !state.showByCategory;
+    },
+    toggleSort: state => {
+      state.sort = !state.sort;
+    },
   },
 });
 
-export const { toggleCoverTranslate, addWords, addWordToUnlearned, removeWordFromUnlearned } = words.actions;
+export const { toggleSort, toggleShowByCategory, toggleCoverTranslate, addWords, addWordToUnlearned, removeWordFromUnlearned } = words.actions;

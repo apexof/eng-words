@@ -1,12 +1,14 @@
 .words-page {
-  display: flex;
-  gap: 50px;
-  height: 100%;
   padding: 30px 40px 60px;
-  .words-block {
-    width: 50%;
-    min-width: 450px;
+  .words-blocks {
     display: flex;
-    flex-direction: column;
+    gap: 50px;
+    height: 100%;
+    .words-block {
+      width: 50%;
+      min-width: 450px;
+      display: flex;
+      flex-direction: column;
+    }
   }
 }

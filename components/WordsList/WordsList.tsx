@@ -1,8 +1,11 @@
 import React, { FC, useMemo, useState } from 'react';
 import { TWord } from '../../types';
 import { SimpleWordsList } from './SimpleWordsList';
-import { WordsListHeader } from '../WordsListHeader/WordsListHeader';
+import { WordsListHeader } from '../WordsFilter/WordsFilter';
 import { AllCategoryList } from './AllCategoryList';
+import { useSelector } from 'react-redux';
+import { AppState } from '../../state';
+import { selectSortedAllWords } from '../../state/words/words.selectors';
 
 interface Props {
   words: TWord[];
@@ -10,17 +13,7 @@ interface Props {
 
 export const WordsList: FC<Props> = props => {
   const { words } = props;
-  const [showByCategory, setShowByCategory] = useState(false);
-  const [sorted, setSorted] = useState(false);
+  const showByCategory = useSelector((state: AppState) => state.words.showByCategory);
 
-  const sortedWords = useMemo(() => {
-    return !sorted ? words : [...words].sort((a, b) => a.value.localeCompare(b.value));
-  }, [sorted, words]);
-
-  return (
-    <>
-      <WordsListHeader showByCategory={showByCategory} sorted={sorted} setShowByCategory={setShowByCategory} setSorted={setSorted} />
-      {showByCategory ? <AllCategoryList words={sortedWords} /> : <SimpleWordsList words={sortedWords} />}
-    </>
-  );
+  return showByCategory ? <AllCategoryList words={words} /> : <SimpleWordsList words={words} />;
 };

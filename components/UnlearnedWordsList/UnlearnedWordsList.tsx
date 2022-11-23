@@ -1,15 +1,15 @@
 import React, { FC } from 'react';
 import { useSelector } from 'react-redux';
-import { selectUnlearnedWords } from '../../state/words/words.selectors';
+import { selectSortedUnlearnedWords } from '../../state/words/words.selectors';
 import { WordsList } from '../WordsList/WordsList';
 
 export const UnlearnedWordsList: FC = () => {
-  const unlearnedWords = useSelector(selectUnlearnedWords);
+  const unlearnedWords = useSelector(selectSortedUnlearnedWords);
 
   return (
     <>
       <h2>Unlearned Words</h2>
-      <WordsList words={Object.values(unlearnedWords)} />
+      <WordsList words={unlearnedWords} />
     </>
   );
 };

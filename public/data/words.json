@@ -1,7 +1,52 @@
 {
+  "oil": {
+    "value": "oil",
+    "translate": "нефть",
+    "tags": []
+  },
+  "fine": {
+    "value": "fine",
+    "translate": "штраф",
+    "tags": []
+  },
+  "similar": {
+    "value": "similar",
+    "translate": "похожее",
+    "tags": []
+  },
+  "mindset": {
+    "value": "mindset",
+    "translate": "мышление",
+    "tags": ["personality"]
+  },
+  "worldview": {
+    "value": "worldview",
+    "translate": "мировозрение",
+    "tags": ["personality"]
+  },
+  "low-key": {
+    "value": "low-key",
+    "translate": "скромный",
+    "tags": ["personality"]
+  },
+  "outfit": {
+    "value": "outfit",
+    "translate": "одежда, наряд",
+    "tags": []
+  },
+  "promote": {
+    "value": "promote",
+    "translate": "продвигать",
+    "tags": []
+  },
+  "conversation": {
+    "value": "conversation",
+    "translate": "разговор",
+    "tags": []
+  },
   "disrupt": {
     "value": "disrupt",
-    "translate": "нарушать огорчать",
+    "translate": "нарушать, огорчать",
     "tags": []
   },
   "gradually": {

@@ -1,4 +1,49 @@
 {
+  "": {
+    "value": "",
+    "translate": "",
+    "tags": []
+  },
+  "hilariously": {
+    "value": "hilariously",
+    "translate": "забавно",
+    "tags": []
+  },
+  "engage": {
+    "value": "engage",
+    "translate": "привлекать",
+    "tags": []
+  },
+  "here we go": {
+    "value": "here we go",
+    "translate": "погнали, вот так, пожалуйста",
+    "tags": ["phrases"]
+  },
+  "here we go again": {
+    "value": "here we go again",
+    "translate": "ну вот опять",
+    "tags": ["phrases"]
+  },
+  "сan i have": {
+    "value": "сan i have",
+    "translate": "можно мне...",
+    "tags": ["travel", "phrases"]
+  },
+  "i'll have": {
+    "value": "i'll have",
+    "translate": "я буду",
+    "tags": ["travel", "phrases"]
+  },
+  "lovely": {
+    "value": "lovely",
+    "translate": "прекрасно",
+    "tags": []
+  },
+  "half past seven": {
+    "value": "half past seven",
+    "translate": "пол седьмого",
+    "tags": []
+  },
   "oil": {
     "value": "oil",
     "translate": "нефть",

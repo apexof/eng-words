@@ -1,9 +1,8 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { TWordsList, TWord } from '../../types';
+import { TWordsList } from '../../types';
 
 type TWordsState = {
   allWords: TWordsList;
-  unlearnedWords: TWordsList;
   coverTranslate: boolean;
   showByCategory: boolean;
   sort: boolean;
@@ -12,7 +11,6 @@ type TWordsState = {
 
 const initialState: TWordsState = {
   allWords: {},
-  unlearnedWords: {},
   coverTranslate: true,
   showByCategory: false,
   sort: false,
@@ -33,16 +31,6 @@ export const words = createSlice({
 
       state.allWords = items;
     },
-    addWordToUnlearned: (state, action: PayloadAction<{ word: TWord }>) => {
-      const { word } = action.payload;
-
-      state.unlearnedWords[word.value] = word;
-    },
-    removeWordFromUnlearned: (state, action: PayloadAction<{ key: string }>) => {
-      const { key } = action.payload;
-
-      delete state.unlearnedWords[key];
-    },
     toggleCoverTranslate: state => {
       state.coverTranslate = !state.coverTranslate;
     },
@@ -55,4 +43,4 @@ export const words = createSlice({
   },
 });
 
-export const { setComplexity, toggleSort, toggleShowByCategory, toggleCoverTranslate, addWords, addWordToUnlearned, removeWordFromUnlearned } = words.actions;
+export const { setComplexity, toggleSort, toggleShowByCategory, toggleCoverTranslate, addWords } = words.actions;

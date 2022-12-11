@@ -1,11 +1,9 @@
-import React, { FC, useMemo, useState } from 'react';
+import React, { FC } from 'react';
 import { TWord } from '../../types';
 import { SimpleWordsList } from './SimpleWordsList';
-import { WordsListHeader } from '../WordsFilter/WordsFilter';
 import { AllCategoryList } from './AllCategoryList';
 import { useSelector } from 'react-redux';
 import { AppState } from '../../state';
-import { selectSortedAllWords } from '../../state/words/words.selectors';
 
 interface Props {
   words: TWord[];

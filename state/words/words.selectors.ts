@@ -25,8 +25,11 @@ export const selectAllCategories = createSelector(selectAllWords, (words: TWords
   return Object.values(allCategories);
 });
 
-export const selectAllFilteredWords = createSelector([selectAllWords, selectWordsComplexity], (words: TWordsList, complexity: number) => {
-  return Object.values(words).filter(word => word.сomplexity >= complexity);
+export const selectAllFilteredWords = createSelector([selectAllWords, selectWordsComplexity], (words: TWordsList, complexity: number[]) => {
+  return Object.values(words).filter(word => {
+    console.log('complexity', complexity);
+    return complexity?.includes(word.complexity);
+  });
 });
 
 const sortFunc = (a, b) => a.value.localeCompare(b.value);

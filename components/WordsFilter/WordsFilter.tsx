@@ -21,10 +21,14 @@ export const WordsFilter: FC = () => {
       </h4>
       <h4 onClick={() => dispatch(toggleCoverTranslate())}>Cover: [{coverTranslate ? 'translate' : 'value'}]</h4>
       <span className={s.complexity}>
-        <h4>Complexity GTE: </h4>
+        <h4>Complexity: </h4>
         <Select
+          mode="multiple"
+          allowClear
           listHeight={400}
           defaultValue={complexity}
+          value={complexity}
+          style={{ minWidth: 80 }}
           options={[...Array(10).keys()].map(i => ({
             value: i + 1,
             label: i + 1,

@@ -5,6 +5,7 @@ import { TWord, TWordsList } from '../../types';
 export const selectUnlearnedWords = (state: AppState) => state.words.unlearnedWords;
 export const selectAllWords = (state: AppState) => state.words.allWords;
 export const selectWordsSort = (state: AppState) => state.words.sort;
+export const selectWordsComplexity = (state: AppState) => state.words.complexity;
 
 export const selectAllWordsFromCategory = (category: string) => {
   return createSelector(selectAllWords, (words: TWordsList) => {
@@ -25,12 +26,20 @@ export const selectAllCategories = createSelector(selectAllWords, (words: TWords
   return Object.values(allCategories);
 });
 
-const sortFunc = (a, b) => a.value.localeCompare(b.value);
-
-export const selectSortedUnlearnedWords = createSelector([selectUnlearnedWords, selectWordsSort], (words: TWordsList, sorted: boolean) => {
-  return !sorted ? Object.values(words) : [...Object.values(words)].sort(sortFunc);
+export const selectAllFilteredWords = createSelector([selectAllWords, selectWordsComplexity], (words: TWordsList, complexity: number) => {
+  return Object.values(words).filter(word => word.сomplexity >= complexity);
 });
 
-export const selectSortedAllWords = createSelector([selectAllWords, selectWordsSort], (words: TWordsList, sorted: boolean) => {
-  return !sorted ? Object.values(words) : [...Object.values(words)].sort(sortFunc);
+export const selectUnlearnedFilteredWords = createSelector([selectUnlearnedWords, selectWordsComplexity], (words: TWordsList, complexity: number) => {
+  return Object.values(words).filter(word => word.сomplexity >= complexity);
+});
+
+const sortFunc = (a, b) => a.value.localeCompare(b.value);
+
+export const selectSortedUnlearnedWords = createSelector([selectUnlearnedFilteredWords, selectWordsSort], (words: TWord[], sorted: boolean) => {
+  return !sorted ? words : [...words].sort(sortFunc);
+});
+
+export const selectSortedAllWords = createSelector([selectAllFilteredWords, selectWordsSort], (words: TWord[], sorted: boolean) => {
+  return !sorted ? words : [...words].sort(sortFunc);
 });

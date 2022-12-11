@@ -1,0 +1,1064 @@
+{
+  "": {
+    "value": "",
+    "translate": "",
+    "tags": [],
+    "сomplexity": 10
+  },
+  "hilariously": {
+    "value": "hilariously",
+    "translate": "забавно",
+    "tags": [],
+    "сomplexity": 8
+  },
+  "engage": {
+    "value": "engage",
+    "translate": "привлекать",
+    "tags": [],
+    "сomplexity": 8
+  },
+  "here we go": {
+    "value": "here we go",
+    "translate": "погнали, вот так, пожалуйста",
+    "tags": ["phrases"],
+    "сomplexity": 5
+  },
+  "here we go again": {
+    "value": "here we go again",
+    "translate": "ну вот опять",
+    "tags": ["phrases"],
+    "сomplexity": 5
+  },
+  "сan i have": {
+    "value": "сan i have",
+    "translate": "можно мне...",
+    "tags": ["travel", "phrases"],
+    "сomplexity": 4
+  },
+  "i'll have": {
+    "value": "i'll have",
+    "translate": "я буду",
+    "tags": ["travel", "phrases"],
+    "сomplexity": 4
+  },
+  "lovely": {
+    "value": "lovely",
+    "translate": "прекрасно",
+    "tags": [],
+    "сomplexity": 6
+  },
+  "half past seven": {
+    "value": "half past seven",
+    "translate": "пол седьмого",
+    "tags": [],
+    "сomplexity": 3
+  },
+  "oil": {
+    "value": "oil",
+    "translate": "нефть",
+    "tags": [],
+    "сomplexity": 6
+  },
+  "fine": {
+    "value": "fine",
+    "translate": "штраф",
+    "tags": [],
+    "сomplexity": 7
+  },
+  "similar": {
+    "value": "similar",
+    "translate": "похожее",
+    "tags": [],
+    "сomplexity": 5
+  },
+  "mindset": {
+    "value": "mindset",
+    "translate": "мышление",
+    "tags": ["personality"],
+    "сomplexity": 5
+  },
+  "worldview": {
+    "value": "worldview",
+    "translate": "мировозрение",
+    "tags": ["personality"],
+    "сomplexity": 6
+  },
+  "low-key": {
+    "value": "low-key",
+    "translate": "скромный",
+    "tags": ["personality"],
+    "сomplexity": 7
+  },
+  "outfit": {
+    "value": "outfit",
+    "translate": "одежда, наряд",
+    "tags": [],
+    "сomplexity": 7
+  },
+  "promote": {
+    "value": "promote",
+    "translate": "продвигать",
+    "tags": [],
+    "сomplexity": 9
+  },
+  "conversation": {
+    "value": "conversation",
+    "translate": "разговор",
+    "tags": [],
+    "сomplexity": 10
+  },
+  "disrupt": {
+    "value": "disrupt",
+    "translate": "нарушать, огорчать",
+    "tags": [],
+    "сomplexity": 4
+  },
+  "gradually": {
+    "value": "gradually",
+    "translate": "постепенно",
+    "tags": ["adverbs"],
+    "сomplexity": 10
+  },
+  "far cry": {
+    "value": "far cry",
+    "translate": "большая разница",
+    "tags": [],
+    "сomplexity": 7
+  },
+  "announcement": {
+    "value": "announcement",
+    "translate": "объявление",
+    "tags": [],
+    "сomplexity": 4
+  },
+  "decade": {
+    "value": "decade",
+    "translate": "десятилетие",
+    "tags": [],
+    "сomplexity": 4
+  },
+  "entrepreneur": {
+    "value": "entrepreneur",
+    "translate": "Предприниматель",
+    "tags": ["finance"],
+    "сomplexity": 6
+  },
+  "be fascinated with": {
+    "value": "be fascinated with",
+    "translate": "быть очарованным",
+    "tags": ["phrases"],
+    "сomplexity": 6
+  },
+  "thanks to": {
+    "value": "thanks to",
+    "translate": "благодаря",
+    "tags": [],
+    "сomplexity": 3
+  },
+  "especially": {
+    "value": "especially",
+    "translate": "особенно",
+    "tags": ["adverbs"],
+    "сomplexity": 7
+  },
+  "roughly": {
+    "value": "roughly",
+    "translate": "грубо",
+    "tags": [],
+    "сomplexity": 4
+  },
+  "grades marks": {
+    "value": "grades marks",
+    "translate": "оценки",
+    "tags": [],
+    "сomplexity": 4
+  },
+  "attempt": {
+    "value": "attempt",
+    "translate": "попытка",
+    "tags": [],
+    "сomplexity": 6
+  },
+  "pressure": {
+    "value": "pressure",
+    "translate": "давление",
+    "tags": [],
+    "сomplexity": 2
+  },
+  "opportunity": {
+    "value": "opportunity",
+    "translate": "возможность",
+    "tags": [],
+    "сomplexity": 3
+  },
+  "fortunate": {
+    "value": "fortunate",
+    "translate": "повезло",
+    "tags": [],
+    "сomplexity": 10
+  },
+  "affect": {
+    "value": "affect",
+    "translate": "оказывать воздействие",
+    "tags": [],
+    "сomplexity": 10
+  },
+  "relavant": {
+    "value": "relavant",
+    "translate": "актуальный",
+    "tags": [],
+    "сomplexity": 3
+  },
+  "revenue stream": {
+    "value": "revenue stream",
+    "translate": "поток дохода",
+    "tags": ["finance"],
+    "сomplexity": 5
+  },
+  "high profile people": {
+    "value": "high profile people",
+    "translate": "известные люди",
+    "tags": [],
+    "сomplexity": 6
+  },
+  "concern": {
+    "value": "concern",
+    "translate": "беспокойство",
+    "tags": [],
+    "сomplexity": 10
+  },
+  "ultimately": {
+    "value": "ultimately",
+    "translate": "в конечном счете",
+    "tags": ["adverbs"],
+    "сomplexity": 3
+  },
+  "themselves": {
+    "value": "themselves",
+    "translate": "сами себя",
+    "tags": [],
+    "сomplexity": 8
+  },
+  "within": {
+    "value": "within",
+    "translate": "в пределах",
+    "tags": [],
+    "сomplexity": 10
+  },
+  "purchase": {
+    "value": "purchase",
+    "translate": "покупать",
+    "tags": ["finance"],
+    "сomplexity": 3
+  },
+  "goods": {
+    "value": "goods",
+    "translate": "товары",
+    "tags": [],
+    "сomplexity": 2
+  },
+  "noticed": {
+    "value": "noticed",
+    "translate": "обратил внимание",
+    "tags": [],
+    "сomplexity": 9
+  },
+  "take after": {
+    "value": "take after",
+    "translate": "унаследовать",
+    "tags": ["phrasal verb"],
+    "сomplexity": 10
+  },
+  "take part in": {
+    "value": "take part in",
+    "translate": "принимать участие в",
+    "tags": ["phrasal verb"],
+    "сomplexity": 2
+  },
+  "take off": {
+    "value": "take off",
+    "translate": "раздеваться",
+    "tags": ["phrasal verb"],
+    "сomplexity": 3
+  },
+  "take care of": {
+    "value": "take care of",
+    "translate": "заботиться",
+    "tags": ["phrasal verb"],
+    "сomplexity": 3
+  },
+  "take your time": {
+    "value": "take your time",
+    "translate": "не торопись",
+    "tags": ["phrasal verb"],
+    "сomplexity": 2
+  },
+  "take up": {
+    "value": "take up",
+    "translate": "начинать, браться за",
+    "tags": ["phrasal verb"],
+    "сomplexity": 8
+  },
+  "take place": {
+    "value": "take place",
+    "translate": "проводить",
+    "tags": ["phrasal verb"],
+    "сomplexity": 7
+  },
+  "taking advantage": {
+    "value": "taking advantage",
+    "translate": "извлекать выгоду",
+    "tags": ["phrasal verb"],
+    "сomplexity": 9
+  },
+  "take a deep breath": {
+    "value": "take a deep breath",
+    "translate": "сделать глубокий вдох",
+    "tags": ["phrasal verb"],
+    "сomplexity": 4
+  },
+  "takes office": {
+    "value": "takes office",
+    "translate": "вступить в должность",
+    "tags": ["phrasal verb"],
+    "сomplexity": 8
+  },
+  "grand": {
+    "value": "grand",
+    "translate": "тысяча",
+    "tags": [],
+    "сomplexity": 10
+  },
+  "specific particular": {
+    "value": "specific particular",
+    "translate": "конкретный",
+    "tags": [],
+    "сomplexity": 10
+  },
+  "common": {
+    "value": "common",
+    "translate": "общий (вещь)",
+    "tags": [],
+    "сomplexity": 8
+  },
+  "terrified": {
+    "value": "terrified",
+    "translate": "испуганный",
+    "tags": ["personality"],
+    "сomplexity": 7
+  },
+  "horrified": {
+    "value": "horrified",
+    "translate": "ужас",
+    "tags": [],
+    "сomplexity": 7
+  },
+  "suffer": {
+    "value": "suffer",
+    "translate": "страдать",
+    "tags": [],
+    "сomplexity": 3
+  },
+  "groceries": {
+    "value": "groceries",
+    "translate": "продукты",
+    "tags": [],
+    "сomplexity": 4
+  },
+  "employ": {
+    "value": "employ",
+    "translate": "нанимать",
+    "tags": ["job"],
+    "сomplexity": 7
+  },
+  "employer": {
+    "value": "employer",
+    "translate": "работадатель",
+    "tags": ["job"],
+    "сomplexity": 7
+  },
+  "overtime": {
+    "value": "overtime",
+    "translate": "сверхурочно",
+    "tags": ["job"],
+    "сomplexity": 4
+  },
+  "look forward": {
+    "value": "look forward",
+    "translate": "ждать с нетерпением",
+    "tags": ["job"],
+    "сomplexity": 8
+  },
+  "decrease": {
+    "value": "decrease",
+    "translate": "снижаться",
+    "tags": [],
+    "сomplexity": 7
+  },
+  "essentially": {
+    "value": "essentially",
+    "translate": "по сути",
+    "tags": ["adverbs"],
+    "сomplexity": 10
+  },
+  "poor": {
+    "value": "poor",
+    "translate": "бедный",
+    "tags": ["personality"],
+    "сomplexity": 2
+  },
+  "rich": {
+    "value": "rich",
+    "translate": "богатый",
+    "tags": ["personality"],
+    "сomplexity": 1
+  },
+  "for sure": {
+    "value": "for sure",
+    "translate": "конечно",
+    "tags": ["phrases"],
+    "сomplexity": 2
+  },
+  "make sense": {
+    "value": "make sense",
+    "translate": "имеет смысл",
+    "tags": ["phrases"],
+    "сomplexity": 3
+  },
+  "advanced": {
+    "value": "advanced",
+    "translate": "продвинутый",
+    "tags": [],
+    "сomplexity": 4
+  },
+  "adults": {
+    "value": "adults",
+    "translate": "взрослый",
+    "tags": ["personality"],
+    "сomplexity": 2
+  },
+  "complicated": {
+    "value": "complicated",
+    "translate": "сложный",
+    "tags": [],
+    "сomplexity": 5
+  },
+  "introduce": {
+    "value": "introduce",
+    "translate": "представлять вводить",
+    "tags": [],
+    "сomplexity": 7
+  },
+  "growing": {
+    "value": "growing",
+    "translate": "растущий",
+    "tags": [],
+    "сomplexity": 3
+  },
+  "sometimes": {
+    "value": "sometimes",
+    "translate": "иногда",
+    "tags": ["adverbs"],
+    "сomplexity": 1
+  },
+  "i mean": {
+    "value": "i mean",
+    "translate": "я имею в виду",
+    "tags": ["phrases"],
+    "сomplexity": 1
+  },
+  "tip": {
+    "value": "tip",
+    "translate": "совет",
+    "tags": [],
+    "сomplexity": 2
+  },
+  "all the time": {
+    "value": "all the time",
+    "translate": "постоянно",
+    "tags": ["phrases"],
+    "сomplexity": 4
+  },
+  "promise": {
+    "value": "promise",
+    "translate": "обещание",
+    "tags": [],
+    "сomplexity": 1
+  },
+  "believe": {
+    "value": "believe",
+    "translate": "полагать, верить",
+    "tags": [],
+    "сomplexity": 1
+  },
+  "coach": {
+    "value": "coach",
+    "translate": "тренер",
+    "tags": ["job"],
+    "сomplexity": 1
+  },
+  "blow": {
+    "value": "blow",
+    "translate": "дуть",
+    "tags": [],
+    "сomplexity": 3
+  },
+  "mentor": {
+    "value": "mentor",
+    "translate": "наставник",
+    "tags": ["job"],
+    "сomplexity": 4
+  },
+  "anything": {
+    "value": "anything",
+    "translate": "что угодно",
+    "tags": ["adverbs"],
+    "сomplexity": 1
+  },
+  "look": {
+    "value": "look",
+    "translate": "смотреть",
+    "tags": [],
+    "сomplexity": 1
+  },
+  "watch": {
+    "value": "watch",
+    "translate": "смотреть",
+    "tags": [],
+    "сomplexity": 1
+  },
+  "see": {
+    "value": "see",
+    "translate": "видеть",
+    "tags": [],
+    "сomplexity": 1
+  },
+  "tell": {
+    "value": "tell",
+    "translate": "рассказать",
+    "tags": [],
+    "сomplexity": 1
+  },
+  "once": {
+    "value": "once",
+    "translate": "однажды",
+    "tags": ["adverbs"],
+    "сomplexity": 1
+  },
+  "several": {
+    "value": "several",
+    "translate": "несколько",
+    "tags": [],
+    "сomplexity": 4
+  },
+  "before": {
+    "value": "before",
+    "translate": "прежде",
+    "tags": ["preposition"],
+    "сomplexity": 1
+  },
+  "after": {
+    "value": "after",
+    "translate": "после",
+    "tags": ["preposition"],
+    "сomplexity": 1
+  },
+  "behind": {
+    "value": "behind",
+    "translate": "позади",
+    "tags": ["preposition"],
+    "сomplexity": 5
+  },
+  "great": {
+    "value": "great",
+    "translate": "большой великолепный",
+    "tags": ["personality"],
+    "сomplexity": 1
+  },
+  "ugly": {
+    "value": "ugly",
+    "translate": "уродливый",
+    "tags": ["personality"],
+    "сomplexity": 4
+  },
+  "see you": {
+    "value": "see you",
+    "translate": "увидимся",
+    "tags": ["phrases"],
+    "сomplexity": 1
+  },
+  "experience": {
+    "value": "experience",
+    "translate": "опыт",
+    "tags": ["job"],
+    "сomplexity": 1
+  },
+  "pursuit": {
+    "value": "pursuit",
+    "translate": "преследование",
+    "tags": ["preposition"],
+    "сomplexity": 5
+  },
+  "satisfying": {
+    "value": "satisfying",
+    "translate": "удовлетворение",
+    "tags": ["relations"],
+    "сomplexity": 5
+  },
+  "terminal": {
+    "value": "terminal",
+    "translate": "конечный пункт",
+    "tags": ["travel"],
+    "сomplexity": 6
+  },
+  "intersect": {
+    "value": "intersect",
+    "translate": "пересечение",
+    "tags": [],
+    "сomplexity": 4
+  },
+  "shape": {
+    "value": "shape",
+    "translate": "фигура образ",
+    "tags": [],
+    "сomplexity": 5
+  },
+  "stencil": {
+    "value": "stencil",
+    "translate": "трафарет",
+    "tags": [],
+    "сomplexity": 6
+  },
+  "describe": {
+    "value": "describe",
+    "translate": "описывать",
+    "tags": [],
+    "сomplexity": 2
+  },
+  "advantages": {
+    "value": "advantages",
+    "translate": "преимущества",
+    "tags": ["job"],
+    "сomplexity": 3
+  },
+  "definition": {
+    "value": "definition",
+    "translate": "определение",
+    "tags": [],
+    "сomplexity": 4
+  },
+  "below": {
+    "value": "below",
+    "translate": "ниже, под",
+    "tags": ["preposition"],
+    "сomplexity": 7
+  },
+  "independent": {
+    "value": "independent",
+    "translate": "независимый",
+    "tags": ["personality"],
+    "сomplexity": 5
+  },
+  "dedicated": {
+    "value": "dedicated",
+    "translate": "преданный привязанный",
+    "tags": ["personality"],
+    "сomplexity": 10
+  },
+  "consume": {
+    "value": "consume",
+    "translate": "расходовать потреблять",
+    "tags": [],
+    "сomplexity": 10
+  },
+  "belong": {
+    "value": "belong",
+    "translate": "принадлежать находиться",
+    "tags": [],
+    "сomplexity": 10
+  },
+  "fate": {
+    "value": "fate",
+    "translate": "судьба",
+    "tags": [],
+    "сomplexity": 7
+  },
+  "i pay taxes": {
+    "value": "i pay taxes",
+    "translate": "я плачу налоги",
+    "tags": ["phrases"],
+    "сomplexity": 6
+  },
+  "pure": {
+    "value": "pure",
+    "translate": "чистый",
+    "tags": ["relations"],
+    "сomplexity": 5
+  },
+  "mortgage": {
+    "value": "mortgage",
+    "translate": "ипотека",
+    "tags": [],
+    "сomplexity": 6
+  },
+  "aditional": {
+    "value": "aditional",
+    "translate": "дополнительный",
+    "tags": [],
+    "сomplexity": 7
+  },
+  "carry": {
+    "value": "carry",
+    "translate": "нести",
+    "tags": [],
+    "сomplexity": 2
+  },
+  "soulmate": {
+    "value": "soulmate",
+    "translate": "родственная душа",
+    "tags": ["relations"],
+    "сomplexity": 3
+  },
+  "salary": {
+    "value": "salary",
+    "translate": "зарплата",
+    "tags": ["job"],
+    "сomplexity": 4
+  },
+  "i am on in": {
+    "value": "i am on in",
+    "translate": "я этим занимаюсь",
+    "tags": ["phrases"],
+    "сomplexity": 3
+  },
+  "in leave": {
+    "value": "in leave",
+    "translate": "отпуск",
+    "tags": ["job"],
+    "сomplexity": 4
+  },
+  "nice to meet you": {
+    "value": "nice to meet you",
+    "translate": "приятно познакомиться",
+    "tags": ["phrases"],
+    "сomplexity": 1
+  },
+  "vacation": {
+    "value": "vacation",
+    "translate": "отпуск",
+    "tags": ["job"],
+    "сomplexity": 5
+  },
+  "colleagues": {
+    "value": "colleagues",
+    "translate": "коллеги",
+    "tags": ["job"],
+    "сomplexity": 4
+  },
+  "to be satisfied with": {
+    "value": "to be satisfied with",
+    "translate": "быть довольным...",
+    "tags": ["phrases"],
+    "сomplexity": 4
+  },
+  "distract": {
+    "value": "distract",
+    "translate": "отвлекать",
+    "tags": [],
+    "сomplexity": 8
+  },
+  "stranger": {
+    "value": "stranger",
+    "translate": "незнакомец",
+    "tags": [],
+    "сomplexity": 6
+  },
+  "among": {
+    "value": "among",
+    "translate": "среди",
+    "tags": ["preposition"],
+    "сomplexity": 9
+  },
+  "until": {
+    "value": "until",
+    "translate": "до тех пор пока",
+    "tags": ["preposition"],
+    "сomplexity": 8
+  },
+  "above": {
+    "value": "above",
+    "translate": "над",
+    "tags": ["preposition"],
+    "сomplexity": 10
+  },
+  "under": {
+    "value": "under",
+    "translate": "под",
+    "tags": [],
+    "сomplexity": 7
+  },
+  "eat out": {
+    "value": "eat out",
+    "translate": "есть вне дома",
+    "tags": ["travel"],
+    "сomplexity": 5
+  },
+  "waiter": {
+    "value": "waiter",
+    "translate": "официант",
+    "tags": ["travel"],
+    "сomplexity": 2
+  },
+  "check out": {
+    "value": "check out",
+    "translate": "выселение из отеля",
+    "tags": ["travel"],
+    "сomplexity": 3
+  },
+  "check": {
+    "value": "check",
+    "translate": "счет в ресторане",
+    "tags": ["travel"],
+    "сomplexity": 3
+  },
+  "check in": {
+    "value": "check in",
+    "translate": "регистрация в аэропорту",
+    "tags": ["travel"],
+    "сomplexity": 6
+  },
+  "obviously": {
+    "value": "obviously",
+    "translate": "очевидно",
+    "tags": ["adverbs"],
+    "сomplexity": 10
+  },
+  "uncertainty": {
+    "value": "uncertainty",
+    "translate": "неопределенность",
+    "tags": ["adverbs"],
+    "сomplexity": 10
+  },
+  "definitely": {
+    "value": "definitely",
+    "translate": "определенно",
+    "tags": ["adverbs"],
+    "сomplexity": 8
+  },
+  "temporarily": {
+    "value": "temporarily",
+    "translate": "временно",
+    "tags": ["adverbs"],
+    "сomplexity": 9
+  },
+  "probably": {
+    "value": "probably",
+    "translate": "вероятно",
+    "tags": ["adverbs"],
+    "сomplexity": 6
+  },
+  "unfortunately": {
+    "value": "unfortunately",
+    "translate": "к сожалению",
+    "tags": ["adverbs"],
+    "сomplexity": 8
+  },
+  "quite": {
+    "value": "quite",
+    "translate": "довольно",
+    "tags": ["adverbs"],
+    "сomplexity": 8
+  },
+  "necessary": {
+    "value": "necessary",
+    "translate": "необходимо",
+    "tags": ["adverbs"],
+    "сomplexity": 3
+  },
+  "guess": {
+    "value": "guess",
+    "translate": "угадывать",
+    "tags": [],
+    "сomplexity": 4
+  },
+  "significant": {
+    "value": "significant",
+    "translate": "значительный",
+    "tags": [],
+    "сomplexity": 5
+  },
+  "literally": {
+    "value": "literally",
+    "translate": "буквально",
+    "tags": ["adverbs"],
+    "сomplexity": 4
+  },
+  "seems": {
+    "value": "seems",
+    "translate": "кажется",
+    "tags": [],
+    "сomplexity": 6
+  },
+  "embassy": {
+    "value": "embassy",
+    "translate": "посольство",
+    "tags": ["oficcial"],
+    "сomplexity": 6
+  },
+  "resident's permit": {
+    "value": "resident's permit",
+    "translate": "вид на жительство",
+    "tags": ["oficcial"],
+    "сomplexity": 8
+  },
+  "unemployed": {
+    "value": "unemployed",
+    "translate": "безработный",
+    "tags": ["job"],
+    "сomplexity": 7
+  },
+  "favour": {
+    "value": "favour",
+    "translate": "одолжение, услуга",
+    "tags": ["relations"],
+    "сomplexity": 9
+  },
+  "stock exchange": {
+    "value": "stock exchange",
+    "translate": "фондовая биржа",
+    "tags": ["oficcial"],
+    "сomplexity": 5
+  },
+  "go bankrupt": {
+    "value": "go bankrupt",
+    "translate": "обанкротиться",
+    "tags": ["oficcial"],
+    "сomplexity": 3
+  },
+  "apply documents": {
+    "value": "apply documents",
+    "translate": "подавать документы",
+    "tags": ["oficcial"],
+    "сomplexity": 6
+  },
+  "brick": {
+    "value": "brick",
+    "translate": "кирпич",
+    "tags": [],
+    "сomplexity": 2
+  },
+  "employee": {
+    "value": "employee",
+    "translate": "сотрудник",
+    "tags": ["job"],
+    "сomplexity": 8
+  },
+  "addiction": {
+    "value": "addiction",
+    "translate": "зависимость",
+    "tags": [],
+    "сomplexity": 7
+  },
+  "fortune": {
+    "value": "fortune",
+    "translate": "состояние",
+    "tags": ["job"],
+    "сomplexity": 7
+  },
+  "decision": {
+    "value": "decision",
+    "translate": "решение(выбор)",
+    "tags": [],
+    "сomplexity": 9
+  },
+  "solution": {
+    "value": "solution",
+    "translate": "решение (задачи)",
+    "tags": ["job"],
+    "сomplexity": 9
+  },
+  "wealth": {
+    "value": "wealth",
+    "translate": "богатство, состояние",
+    "tags": ["job"],
+    "сomplexity": 10
+  },
+  "expand": {
+    "value": "expand",
+    "translate": "расширять",
+    "tags": [],
+    "сomplexity": 7
+  },
+  "insect": {
+    "value": "insect",
+    "translate": "насекомое",
+    "tags": [],
+    "сomplexity": 6
+  },
+  "rest": {
+    "value": "rest",
+    "translate": "отдых, остальные",
+    "tags": ["travel"],
+    "сomplexity": 6
+  },
+  "hyphen": {
+    "value": "hyphen",
+    "translate": "дефис",
+    "tags": ["IT"],
+    "сomplexity": 5
+  },
+  "advice": {
+    "value": "advice",
+    "translate": "совет",
+    "tags": [],
+    "сomplexity": 4
+  },
+  "it depends on...": {
+    "value": "it depends on...",
+    "translate": "Это зависит от",
+    "tags": ["phrases"],
+    "сomplexity": 2
+  },
+  "devide": {
+    "value": "devide",
+    "translate": "делить",
+    "tags": ["IT"],
+    "сomplexity": 8
+  },
+  "passion": {
+    "value": "passion",
+    "translate": "страсть",
+    "tags": ["relations", "job"],
+    "сomplexity": 7
+  },
+  "worth": {
+    "value": "worth",
+    "translate": "стоящий",
+    "tags": ["finance"],
+    "сomplexity": 8
+  },
+  "deserve": {
+    "value": "deserve",
+    "translate": "заслуживать",
+    "tags": ["job"],
+    "сomplexity": 4
+  },
+  "propose": {
+    "value": "propose",
+    "translate": "предлагать",
+    "tags": ["job"],
+    "сomplexity": 7
+  },
+  "gathering": {
+    "value": "gathering",
+    "translate": "встреча, собрание",
+    "tags": ["job"],
+    "сomplexity": 8
+  },
+  "couple": {
+    "value": "couple",
+    "translate": "пара",
+    "tags": [],
+    "сomplexity": 4
+  }
+}

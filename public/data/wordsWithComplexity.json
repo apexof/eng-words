@@ -62,7 +62,7 @@
   "deal": {
     "value": "deal",
     "translate": "по рукам, сделка, дело, предложение",
-    "tags": [],
+    "tags": ["job", "oficcial", "finance"],
     "complexity": 2
   },
   "mean": {
@@ -80,7 +80,7 @@
   "flat": {
     "value": "flat",
     "translate": "квартира",
-    "tags": [],
+    "tags": ["travel"],
     "complexity": 4
   },
   "charge": {
@@ -92,7 +92,7 @@
   "trade off": {
     "value": "trade off",
     "translate": "компромис, отказ, сбывать",
-    "tags": [],
+    "tags": ["finance"],
     "complexity": 8
   },
   "party animal": {
@@ -138,8 +138,8 @@
     "tags": ["phrases"],
     "complexity": 5
   },
-  "сan i have": {
-    "value": "сan i have",
+  "can i have": {
+    "value": "can i have",
     "translate": "можно мне...",
     "tags": ["travel", "phrases"],
     "complexity": 4
@@ -171,7 +171,7 @@
   "fine": {
     "value": "fine",
     "translate": "штраф",
-    "tags": [],
+    "tags": ["finance"],
     "complexity": 7
   },
   "similar": {
@@ -237,7 +237,7 @@
   "announcement": {
     "value": "announcement",
     "translate": "объявление",
-    "tags": [],
+    "tags": ["oficcial"],
     "complexity": 4
   },
   "decade": {
@@ -297,7 +297,7 @@
   "opportunity": {
     "value": "opportunity",
     "translate": "возможность",
-    "tags": [],
+    "tags": ["job"],
     "complexity": 3
   },
   "fortunate": {
@@ -315,7 +315,7 @@
   "relavant": {
     "value": "relavant",
     "translate": "актуальный",
-    "tags": [],
+    "tags": ["job"],
     "complexity": 3
   },
   "revenue stream": {
@@ -327,7 +327,7 @@
   "high profile people": {
     "value": "high profile people",
     "translate": "известные люди",
-    "tags": [],
+    "tags": ["oficcial", "personality"],
     "complexity": 6
   },
   "concern": {

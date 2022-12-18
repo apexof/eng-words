@@ -28,8 +28,8 @@ export const WordsFilter: FC = () => {
           mode="multiple"
           allowClear
           listHeight={400}
-          defaultValue={complexity}
-          value={complexity}
+          // defaultValue={complexity}
+          // value={complexity}
           style={{ minWidth: 80 }}
           options={[1, 2, 3].map(i => ({
             value: i,

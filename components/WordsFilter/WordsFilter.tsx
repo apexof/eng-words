@@ -30,7 +30,7 @@ export const WordsFilter: FC = () => {
           value={complexity}
           style={{ minWidth: 80 }}
           options={[...Array(10).keys()].map(i => ({
-            value: i + 1,
+            value: i,
             label: i + 1,
           }))}
           onChange={value => dispatch(setComplexity(value))}

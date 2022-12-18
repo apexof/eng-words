@@ -1,4 +1,107 @@
 {
+  "i used to run": {
+    "value": "i used to run",
+    "translate": "я раньше бегал",
+    "tags": ["phrases"],
+    "complexity": 6
+  },
+  "ears": {
+    "value": "ears",
+    "translate": "уши",
+    "tags": ["body parts"],
+    "complexity": 4
+  },
+  "expect": {
+    "value": "expect",
+    "translate": "ожидать",
+    "tags": [],
+    "complexity": 7
+  },
+  "to meet expectations": {
+    "value": "to meet expectations",
+    "translate": "оправдывать ожидания",
+    "tags": ["phrases"],
+    "complexity": 6
+  },
+  "expensive": {
+    "value": "expensive",
+    "translate": "дорогой",
+    "tags": ["finance"],
+    "complexity": 4
+  },
+  "pricey": {
+    "value": "pricey",
+    "translate": "дороговатый",
+    "tags": ["finance"],
+    "complexity": 5
+  },
+  "guest": {
+    "value": "guest",
+    "translate": "гость",
+    "tags": [],
+    "complexity": 2
+  },
+  "cheap": {
+    "value": "cheap",
+    "translate": "дешевый",
+    "tags": ["finance"],
+    "complexity": 4
+  },
+  "deal": {
+    "value": "deal",
+    "translate": "по рукам, сделка, дело, предложение",
+    "tags": [],
+    "complexity": 2
+  },
+  "mean": {
+    "value": "mean",
+    "translate": "средство передвижения, иметь в виду",
+    "tags": [],
+    "complexity": 4
+  },
+  "utility": {
+    "value": "utility",
+    "translate": "полезность",
+    "tags": [],
+    "complexity": 5
+  },
+  "flat": {
+    "value": "flat",
+    "translate": "квартира",
+    "tags": [],
+    "complexity": 4
+  },
+  "charge": {
+    "value": "charge",
+    "translate": "взымать плату, обвинять, заряжать",
+    "tags": ["finance"],
+    "complexity": 8
+  },
+  "trade off": {
+    "value": "trade off",
+    "translate": "компромис, отказ, сбывать",
+    "tags": [],
+    "complexity": 8
+  },
+  "party animal": {
+    "value": "party animal",
+    "translate": "тусовщик",
+    "tags": [],
+    "complexity": 5
+  },
+  "i have little money/time": {
+    "value": "i have little money/time",
+    "translate": "у меня мало денег/времени",
+    "tags": ["finance, phrases"],
+    "complexity": 3
+  },
+  "accept": {
+    "value": "accept",
+    "translate": "принимать",
+    "tags": ["oficcial"],
+    "complexity": 4
+  },
+
   "hilariously": {
     "value": "hilariously",
     "translate": "забавно",

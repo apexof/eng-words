@@ -26,8 +26,10 @@ export const selectAllCategories = createSelector(selectAllWords, (words: TWords
 });
 
 export const selectAllFilteredWords = createSelector([selectAllWords, selectWordsComplexity], (words: TWordsList, complexity: number[]) => {
+  if (!complexity.length) {
+    return Object.values(words);
+  }
   return Object.values(words).filter(word => {
-    console.log('complexity', complexity);
     return complexity?.includes(word.complexity);
   });
 });

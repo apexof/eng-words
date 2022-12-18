@@ -29,7 +29,7 @@ export const WordsFilter: FC = () => {
           defaultValue={complexity}
           value={complexity}
           style={{ minWidth: 80 }}
-          options={[...Array(10).keys()].map(i => ({
+          options={[1, 2, 3].map(i => ({
             value: i,
             label: i + 1,
           }))}

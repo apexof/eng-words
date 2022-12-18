@@ -14,7 +14,7 @@ const initialState: TWordsState = {
   coverTranslate: true,
   showByCategory: false,
   sort: false,
-  complexity: [1],
+  complexity: [10],
 };
 
 export const words = createSlice({
@@ -23,14 +23,7 @@ export const words = createSlice({
   reducers: {
     setComplexity: (state, action: PayloadAction<number[]>) => {
       const value = action.payload;
-      // if (!state.complexity.includes(value)) {
-      //   state.complexity.push(value);
-      // }
-      console.log('value', value);
-      value.sort((a, b) => a - b);
-      console.log('value', value);
-
-      state.complexity = value;
+      state.complexity = [...value].sort((a, b) => a - b);
     },
     addWords: (state, action: PayloadAction<{ items: TWordsList }>) => {
       const { items } = action.payload;

@@ -12,7 +12,7 @@ export const WordsFilter: FC = () => {
   const showByCategory = useSelector((state: AppState) => state.words.showByCategory);
   const complexity = useSelector((state: AppState) => state.words.complexity);
   const sorted = useSelector((state: AppState) => state.words.sort);
-
+  console.log('complexity', complexity);
   return (
     <div className={s['words-filter']}>
       <h4 onClick={() => dispatch(toggleShowByCategory())}>Layout:&nbsp;[{showByCategory ? 'By category' : 'Everything'}]</h4>

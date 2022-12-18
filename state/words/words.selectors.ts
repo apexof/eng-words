@@ -30,7 +30,7 @@ export const selectAllFilteredWords = createSelector([selectAllWords, selectWord
     return Object.values(words);
   }
   return Object.values(words).filter(word => {
-    return complexity?.includes(word.complexity);
+    return complexity.includes(word.complexity);
   });
 });
 

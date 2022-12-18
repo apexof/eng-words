@@ -13,8 +13,6 @@ export const WordsFilter: FC = () => {
   const complexity = useSelector((state: AppState) => state.words.complexity);
   const sorted = useSelector((state: AppState) => state.words.sort);
 
-  console.log('component complexity', complexity);
-
   return (
     <div className={s['words-filter']}>
       <h4 onClick={() => dispatch(toggleShowByCategory())}>Layout:&nbsp;[{showByCategory ? 'By category' : 'Everything'}]</h4>
@@ -27,17 +25,14 @@ export const WordsFilter: FC = () => {
         <Select
           allowClear
           listHeight={400}
-          // defaultValue={complexity}
-          // value={complexity}
+          defaultValue={complexity}
+          value={complexity}
           style={{ minWidth: 80 }}
-          options={[1, 2, 3].map(i => ({
-            value: i,
+          options={[...Array(10).keys()].map(i => ({
+            value: i + 1,
             label: i + 1,
           }))}
-          onChange={value => {
-            console.log('onChange value', value);
-            dispatch(setComplexity(value));
-          }}
+          onChange={value => dispatch(setComplexity(value))}
         />
       </span>
     </div>

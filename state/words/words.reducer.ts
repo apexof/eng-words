@@ -6,7 +6,7 @@ type TWordsState = {
   coverTranslate: boolean;
   showByCategory: boolean;
   sort: boolean;
-  complexity: number;
+  complexity?: number;
 };
 
 const initialState: TWordsState = {
@@ -14,7 +14,7 @@ const initialState: TWordsState = {
   coverTranslate: true,
   showByCategory: false,
   sort: false,
-  complexity: 10,
+  complexity: undefined,
 };
 
 export const words = createSlice({

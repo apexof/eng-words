@@ -9,7 +9,7 @@ import { WordsList } from '../WordsList/WordsList';
 export const AllWordsList: FC = () => {
   const dispatch = useAppDispatch();
   const allWords = useSelector(selectSortedAllWords);
-  console.log('allWords', allWords);
+
   useEffect(() => {
     fetch('data/wordsWithComplexity.json')
       .then(res => res.json())

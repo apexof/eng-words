@@ -25,13 +25,13 @@ export const selectAllCategories = createSelector(selectAllWords, (words: TWords
   return Object.values(allCategories);
 });
 
-export const selectAllFilteredWords = createSelector([selectAllWords, selectWordsComplexity], (words: TWordsList, complexity: number[]) => {
-  if (!complexity.length) {
-    console.log('return all words', Object.values(words));
-    return Object.values(words);
-  }
+export const selectAllFilteredWords = createSelector([selectAllWords, selectWordsComplexity], (words: TWordsList, complexity: number) => {
+  // if (!complexity.length) {
+  //   console.log('return all words', Object.values(words));
+  //   return Object.values(words);
+  // }
   const allFilteredWords = Object.values(words).filter(word => {
-    return complexity.includes(word.complexity);
+    return complexity === word.complexity;
   });
   console.log('allFilteredWords', allFilteredWords);
   return allFilteredWords;

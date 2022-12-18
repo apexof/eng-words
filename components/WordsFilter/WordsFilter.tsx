@@ -25,7 +25,6 @@ export const WordsFilter: FC = () => {
       <span className={s.complexity}>
         <h4>Complexity: </h4>
         <Select
-          mode="multiple"
           allowClear
           listHeight={400}
           // defaultValue={complexity}

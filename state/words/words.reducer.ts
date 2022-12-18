@@ -6,7 +6,7 @@ type TWordsState = {
   coverTranslate: boolean;
   showByCategory: boolean;
   sort: boolean;
-  complexity: number[];
+  complexity: number;
 };
 
 const initialState: TWordsState = {
@@ -14,17 +14,16 @@ const initialState: TWordsState = {
   coverTranslate: true,
   showByCategory: false,
   sort: false,
-  complexity: [10],
+  complexity: 10,
 };
 
 export const words = createSlice({
   name: 'words',
   initialState,
   reducers: {
-    setComplexity: (state, action: PayloadAction<number[]>) => {
-      const value = action.payload;
-      const newComplexity = [...value].sort((a, b) => a - b);
-      console.log('reducer newComplexity', newComplexity);
+    setComplexity: (state, action: PayloadAction<number>) => {
+      const newComplexity = action.payload;
+
       state.complexity = newComplexity;
     },
     addWords: (state, action: PayloadAction<{ items: TWordsList }>) => {

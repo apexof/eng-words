@@ -1,4 +1,16 @@
 {
+  "disappointed": {
+    "value": "disappointed",
+    "translate": "расстроенный",
+    "tags": ["personality"],
+    "complexity": 7
+  },
+  "disadvantage": {
+    "value": "disadvantage",
+    "translate": "недостаток",
+    "tags": ["personality"],
+    "complexity": 7
+  },
   "i used to run": {
     "value": "i used to run",
     "translate": "я раньше бегал",
@@ -92,7 +104,7 @@
   "i have little money/time": {
     "value": "i have little money/time",
     "translate": "у меня мало денег/времени",
-    "tags": ["finance, phrases"],
+    "tags": ["finance", "phrases"],
     "complexity": 3
   },
   "accept": {

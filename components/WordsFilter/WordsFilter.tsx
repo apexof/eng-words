@@ -12,7 +12,9 @@ export const WordsFilter: FC = () => {
   const showByCategory = useSelector((state: AppState) => state.words.showByCategory);
   const complexity = useSelector((state: AppState) => state.words.complexity);
   const sorted = useSelector((state: AppState) => state.words.sort);
-  console.log('complexity', complexity);
+
+  console.log('component complexity', complexity);
+
   return (
     <div className={s['words-filter']}>
       <h4 onClick={() => dispatch(toggleShowByCategory())}>Layout:&nbsp;[{showByCategory ? 'By category' : 'Everything'}]</h4>
@@ -33,7 +35,10 @@ export const WordsFilter: FC = () => {
             value: i,
             label: i + 1,
           }))}
-          onChange={value => dispatch(setComplexity(value))}
+          onChange={value => {
+            console.log('onChange value', value);
+            dispatch(setComplexity(value));
+          }}
         />
       </span>
     </div>

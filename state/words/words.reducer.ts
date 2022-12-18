@@ -23,7 +23,9 @@ export const words = createSlice({
   reducers: {
     setComplexity: (state, action: PayloadAction<number[]>) => {
       const value = action.payload;
-      state.complexity = [...value].sort((a, b) => a - b);
+      const newComplexity = [...value].sort((a, b) => a - b);
+      console.log('reducer newComplexity', newComplexity);
+      state.complexity = newComplexity;
     },
     addWords: (state, action: PayloadAction<{ items: TWordsList }>) => {
       const { items } = action.payload;

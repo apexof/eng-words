@@ -1,4 +1,118 @@
 {
+  "could be": {
+    "value": "could be",
+    "translate": "может быть",
+    "tags": ["phrases"],
+    "complexity": 6
+  },
+  "ever": {
+    "value": "ever",
+    "translate": "когда-либо",
+    "tags": ["adverbs"],
+    "complexity": 7
+  },
+  "whole": {
+    "value": "whole",
+    "translate": "целый, весь",
+    "tags": ["phrases"],
+    "complexity": 4
+  },
+  "not as much": {
+    "value": "not as much",
+    "translate": "не так много/сильно",
+    "tags": ["phrases"],
+    "complexity": 4
+  },
+  "still": {
+    "value": "still",
+    "translate": "все еще",
+    "tags": ["adverbs"],
+    "complexity": 2
+  },
+  "yet": {
+    "value": "yet",
+    "translate": "пока что",
+    "tags": ["adverbs"],
+    "complexity": 2
+  },
+  "convenient": {
+    "value": "convenient",
+    "translate": "удобный",
+    "tags": [],
+    "complexity": 7
+  },
+  "that's it ": {
+    "value": "that's it",
+    "translate": "вот и все",
+    "tags": ["phrases"],
+    "complexity": 5
+  },
+  "you should do what i did": {
+    "value": "you should do what i did",
+    "translate": "ты должен делать то, что я сделал",
+    "tags": ["phrases"],
+    "complexity": 5
+  },
+  "i could have bought": {
+    "value": "i could have bought",
+    "translate": "я бы мог купить",
+    "tags": ["phrases"],
+    "complexity": 5
+  },
+  "not so much with the ... but the...": {
+    "value": "not so much with the ... but the...",
+    "translate": "не столько ... сколько",
+    "tags": ["phrases"],
+    "complexity": 5
+  },
+  "terrible": {
+    "value": "terrible",
+    "translate": "ужасно, страшно",
+    "tags": [],
+    "complexity": 5
+  },
+  "i am capable": {
+    "value": "i am capable",
+    "translate": "я способнен/могу (сделать)",
+    "tags": ["personality"],
+    "complexity": 7
+  },
+  "thing that comes with age": {
+    "value": "thing that comes with age",
+    "translate": "вещь которая приходит с возрастом",
+    "tags": ["phrases"],
+    "complexity": 3
+  },
+  "fire away": {
+    "value": "fire away",
+    "translate": "валяй",
+    "tags": ["phrases"],
+    "complexity": 7
+  },
+  "mention": {
+    "value": "mention",
+    "translate": "упоминать",
+    "tags": [],
+    "complexity": 8
+  },
+  "sentences": {
+    "value": "sentences",
+    "translate": "фразы",
+    "tags": [],
+    "complexity": 7
+  },
+  "although": {
+    "value": "although",
+    "translate": "хотя",
+    "tags": ["union"],
+    "complexity": 7
+  },
+  "suddenly": {
+    "value": "suddenly",
+    "translate": "вдруг, внезапно",
+    "tags": [],
+    "complexity": 7
+  },
   "disappointed": {
     "value": "disappointed",
     "translate": "расстроенный",

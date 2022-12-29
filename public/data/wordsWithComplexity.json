@@ -1,4 +1,281 @@
 {
+  "glad": {
+    "value": "glad",
+    "translate": "радостный",
+    "tags": [],
+    "complexity": 5
+  },
+  "properties": {
+    "value": "properties",
+    "translate": "характеристики",
+    "tags": [],
+    "complexity": 4
+  },
+  "edge": {
+    "value": "edge",
+    "translate": "край, преимущество",
+    "tags": [],
+    "complexity": 6
+  },
+  "excess": {
+    "value": "excess",
+    "translate": "избыток",
+    "tags": [],
+    "complexity": 8
+  },
+  "disease": {
+    "value": "disease",
+    "translate": "болезнь",
+    "tags": [],
+    "complexity": 7
+  },
+  "loyalty": {
+    "value": "loyalty",
+    "translate": "верность",
+    "tags": [],
+    "complexity": 5
+  },
+  "royalty": {
+    "value": "royalty",
+    "translate": "авторский гонорар",
+    "tags": ["job"],
+    "complexity": 4
+  },
+  "such": {
+    "value": "such",
+    "translate": "такой",
+    "tags": [],
+    "complexity": 4
+  },
+  "so": {
+    "value": "so",
+    "translate": "так",
+    "tags": [],
+    "complexity": 2
+  },
+  "fortunately": {
+    "value": "fortunately",
+    "translate": "к счастью",
+    "tags": ["adverbs"],
+    "complexity": 5
+  },
+  "at least": {
+    "value": "at least",
+    "translate": "по меньшей мере",
+    "tags": ["phrases"],
+    "complexity": 7
+  },
+  "gotta (have got a)": {
+    "value": "gotta (have got a)",
+    "translate": "должен",
+    "tags": ["slang"],
+    "complexity": 7
+  },
+  "tough": {
+    "value": "tough",
+    "translate": "жёсткий, трудный",
+    "tags": [],
+    "complexity": 7
+  },
+  "nuclear": {
+    "value": "nuclear",
+    "translate": "ядерный",
+    "tags": [],
+    "complexity": 3
+  },
+  "outbreak": {
+    "value": "outbreak",
+    "translate": "вспышка",
+    "tags": [],
+    "complexity": 9
+  },
+  "wide": {
+    "value": "wide",
+    "translate": "широкий",
+    "tags": [],
+    "complexity": 3
+  },
+  "spread": {
+    "value": "spread",
+    "translate": "pаспространять",
+    "tags": [],
+    "complexity": 4
+  },
+  "sudden": {
+    "value": "sudden",
+    "translate": "неожиданный",
+    "tags": [],
+    "complexity": 8
+  },
+  "explosion": {
+    "value": "explosion",
+    "translate": "взрыв",
+    "tags": [],
+    "complexity": 3
+  },
+  "earthquake": {
+    "value": "earthquake",
+    "translate": "землетрясение",
+    "tags": [],
+    "complexity": 4
+  },
+  "to be afraid of": {
+    "value": "to be afraid of",
+    "translate": "бояться …",
+    "tags": ["phrases"],
+    "complexity": 3
+  },
+  "dread": {
+    "value": "dread",
+    "translate": "бояться",
+    "tags": [],
+    "complexity": 8
+  },
+  "terrify": {
+    "value": "terrify",
+    "translate": "вселять ужас",
+    "tags": [],
+    "complexity": 6
+  },
+  "debatable": {
+    "value": "debatable",
+    "translate": "дискуссионный",
+    "tags": [],
+    "complexity": 2
+  },
+  "likely": {
+    "value": "likely",
+    "translate": "вероятно",
+    "tags": [],
+    "complexity": 4
+  },
+  "unacceptable": {
+    "value": "unacceptable",
+    "translate": "неприемлемый",
+    "tags": [],
+    "complexity": 5
+  },
+  "i rate the chance of ...": {
+    "value": "i rate the chance of ...",
+    "translate": "Я оцениваю вероятность…",
+    "tags": ["phrases"],
+    "complexity": 5
+  },
+  "slightly": {
+    "value": "slightly",
+    "translate": "немного",
+    "tags": [],
+    "complexity": 7
+  },
+  "i don't take ... seriously": {
+    "value": "i don't take ... seriously",
+    "translate": "я не воспринимаю это всерьез",
+    "tags": ["phrases"],
+    "complexity": 3
+  },
+  "forgive me": {
+    "value": "forgive me",
+    "translate": "прости меня",
+    "tags": ["phrases"],
+    "complexity": 5
+  },
+  "injured": {
+    "value": "injured",
+    "translate": "раненый, пострадавший",
+    "tags": [],
+    "complexity": 8
+  },
+  "appointment": {
+    "value": "appointment",
+    "translate": "встреча, прием",
+    "tags": ["job"],
+    "complexity": 7
+  },
+  "vulnerability": {
+    "value": "vulnerability",
+    "translate": "уязвимость",
+    "tags": ["IT"],
+    "complexity": 7
+  },
+  "durability": {
+    "value": "durability",
+    "translate": "долговечность",
+    "tags": [],
+    "complexity": 5
+  },
+  "exited": {
+    "value": "exited",
+    "translate": "вышел",
+    "tags": [],
+    "complexity": 7
+  },
+  "excited": {
+    "value": "excited",
+    "translate": "взволнованный",
+    "tags": [],
+    "complexity": 4
+  },
+
+  "accomplish": {
+    "value": "accomplish",
+    "translate": "выполнить, достигать",
+    "tags": ["job"],
+    "complexity": 8
+  },
+  "tend": {
+    "value": "tend",
+    "translate": "иметь тенденцию",
+    "tags": [],
+    "complexity": 7
+  },
+  "i must confess": {
+    "value": "i must confess",
+    "translate": "я должен признаться",
+    "tags": ["phrases"],
+    "complexity": 8
+  },
+  "not at all": {
+    "value": "not at all",
+    "translate": "вовсе нет, нисколько",
+    "tags": ["phrases"],
+    "complexity": 4
+  },
+  "tempted to spend": {
+    "value": "tempted to spend",
+    "translate": "соблазн потратить",
+    "tags": ["finance"],
+    "complexity": 8
+  },
+  "admire": {
+    "value": "admire",
+    "translate": "восхищаться",
+    "tags": ["personality", "relations"],
+    "complexity": 8
+  },
+  "appreciate": {
+    "value": "appreciate",
+    "translate": "ценить",
+    "tags": ["relations"],
+    "complexity": 7
+  },
+  "recognize": {
+    "value": "recognize",
+    "translate": "распознавать, признавать",
+    "tags": [],
+    "complexity": 8
+  },
+  "regrets": {
+    "value": "regrets",
+    "translate": "сожаления",
+    "tags": ["relations"],
+    "complexity": 6
+  },
+  "i wish i was a ..., but i wasn't.": {
+    "value": "i wish i was a ..., but i wasn't.",
+    "translate": "я хотел бы быть ..., но я не был",
+    "tags": ["phrases"],
+    "complexity": 6
+  },
   "could be": {
     "value": "could be",
     "translate": "может быть",
@@ -321,7 +598,7 @@
   "promote": {
     "value": "promote",
     "translate": "продвигать",
-    "tags": [],
+    "tags": ["adverbs"],
     "complexity": 9
   },
   "conversation": {

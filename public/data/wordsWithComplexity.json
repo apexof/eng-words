@@ -1,4 +1,82 @@
 {
+  "i suppose": {
+    "value": "i suppose",
+    "translate": "я предполагаю",
+    "tags": [],
+    "complexity": 4
+  },
+  "i am convinced": {
+    "value": "i am convinced",
+    "translate": "я убежден",
+    "tags": [],
+    "complexity": 8
+  },
+  "general": {
+    "value": "general",
+    "translate": "общий, главный",
+    "tags": [],
+    "complexity": 4
+  },
+  "i must admit": {
+    "value": "i must admit",
+    "translate": "я должен признать",
+    "tags": ["phrases"],
+    "complexity": 7
+  },
+  "far": {
+    "value": "far",
+    "translate": "далеко",
+    "tags": [],
+    "complexity": 0
+  },
+  "so far": {
+    "value": "so far",
+    "translate": "пока",
+    "tags": [],
+    "complexity": 5
+  },
+  "anyway": {
+    "value": "anyway",
+    "translate": "тем не мение",
+    "tags": ["introductory words"],
+    "complexity": 4
+  },
+  "as far as i know": {
+    "value": "as far as i know",
+    "translate": "насколько мне известно",
+    "tags": ["introductory words"],
+    "complexity": 2
+  },
+  "in other words": {
+    "value": "in other words",
+    "translate": "другими словами",
+    "tags": ["introductory words"],
+    "complexity": 2
+  },
+  "by the way": {
+    "value": "by the way",
+    "translate": "кстати",
+    "tags": ["phrases"],
+    "complexity": 6
+  },
+  "in short": {
+    "value": "in short",
+    "translate": "короче говоря",
+    "tags": ["introductory words"],
+    "complexity": 3
+  },
+  "in a word": {
+    "value": "in a word",
+    "translate": "одним словом",
+    "tags": ["introductory words"],
+    "complexity": 3
+  },
+  "engine": {
+    "value": "engine",
+    "translate": "двигатель",
+    "tags": [],
+    "complexity": 6
+  },
   "glad": {
     "value": "glad",
     "translate": "радостный",
@@ -100,12 +178,6 @@
     "translate": "pаспространять",
     "tags": [],
     "complexity": 4
-  },
-  "sudden": {
-    "value": "sudden",
-    "translate": "неожиданный",
-    "tags": [],
-    "complexity": 8
   },
   "explosion": {
     "value": "explosion",
@@ -408,6 +480,18 @@
     "tags": ["phrases"],
     "complexity": 6
   },
+  "i am used to runing": {
+    "value": "i am used to runing",
+    "translate": "я привык бегать",
+    "tags": ["phrases"],
+    "complexity": 6
+  },
+  "i will get used to runing": {
+    "value": "i will get used to runing",
+    "translate": "я привыкну бегать",
+    "tags": ["phrases"],
+    "complexity": 6
+  },
   "ears": {
     "value": "ears",
     "translate": "уши",
@@ -458,8 +542,8 @@
   },
   "mean": {
     "value": "mean",
-    "translate": "средство передвижения, иметь в виду",
-    "tags": [],
+    "translate": "средство передвижения, иметь в виду, жестокий, жадный",
+    "tags": ["personality"],
     "complexity": 4
   },
   "utility": {
@@ -639,7 +723,7 @@
   },
   "entrepreneur": {
     "value": "entrepreneur",
-    "translate": "Предприниматель",
+    "translate": "предприниматель",
     "tags": ["finance"],
     "complexity": 6
   },
@@ -703,8 +787,8 @@
     "tags": [],
     "complexity": 10
   },
-  "relavant": {
-    "value": "relavant",
+  "relevant": {
+    "value": "relevant",
     "translate": "актуальный",
     "tags": ["job"],
     "complexity": 3
@@ -777,7 +861,7 @@
   },
   "take off": {
     "value": "take off",
-    "translate": "раздеваться",
+    "translate": "раздеваться, взлететь",
     "tags": ["phrasal verb"],
     "complexity": 3
   },
@@ -969,7 +1053,7 @@
   },
   "tip": {
     "value": "tip",
-    "translate": "совет",
+    "translate": "совет, чаевые",
     "tags": [],
     "complexity": 2
   },
@@ -1096,7 +1180,7 @@
   "pursuit": {
     "value": "pursuit",
     "translate": "преследование",
-    "tags": ["preposition"],
+    "tags": [],
     "complexity": 5
   },
   "satisfying": {
@@ -1159,8 +1243,8 @@
     "tags": ["personality"],
     "complexity": 5
   },
-  "dedicated": {
-    "value": "dedicated",
+  "dedicated loyal": {
+    "value": "dedicated loyal",
     "translate": "преданный привязанный",
     "tags": ["personality"],
     "complexity": 10
@@ -1467,7 +1551,7 @@
   },
   "decision": {
     "value": "decision",
-    "translate": "решение(выбор)",
+    "translate": "решение (выбор)",
     "tags": [],
     "complexity": 9
   },
@@ -1507,8 +1591,8 @@
     "tags": ["IT"],
     "complexity": 5
   },
-  "advice": {
-    "value": "advice",
+  "advice tip": {
+    "value": "advice tip",
     "translate": "совет",
     "tags": [],
     "complexity": 4
@@ -1560,5 +1644,575 @@
     "translate": "пара",
     "tags": [],
     "complexity": 4
+  },
+  "thoughts": {
+    "value": "thoughts",
+    "translate": "мысли",
+    "tags": [],
+    "complexity": 0
+  },
+  "sphere, field": {
+    "value": "sphere, field",
+    "translate": "сфера",
+    "tags": ["job"],
+    "complexity": 0
+  },
+  "shoot, film": {
+    "value": "shoot, film",
+    "translate": "снимать фильм",
+    "tags": [],
+    "complexity": 0
+  },
+  "edit": {
+    "value": "edit",
+    "translate": "монтировать, редактировать",
+    "tags": ["job"],
+    "complexity": 0
+  },
+  "issue": {
+    "value": "issue",
+    "translate": "вопрос (проблема)",
+    "tags": ["job"],
+    "complexity": 0
+  },
+  "recently": {
+    "value": "recently",
+    "translate": "недавно",
+    "tags": ["adverbs"],
+    "complexity": 0
+  },
+  "rejected": {
+    "value": "rejected",
+    "translate": "отвергнутый",
+    "tags": ["IT", "job"],
+    "complexity": 0
+  },
+  "approve": {
+    "value": "approve",
+    "translate": "подтверждать",
+    "tags": ["IT", "job"],
+    "complexity": 0
+  },
+  "approach": {
+    "value": "approach",
+    "translate": "приближаться, метод",
+    "tags": [],
+    "complexity": 0
+  },
+  "adorable": {
+    "value": "adorable",
+    "translate": "обожаемый, восхитительный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "discover": {
+    "value": "discover",
+    "translate": "обнаружить, раскрыть",
+    "tags": [],
+    "complexity": 0
+  },
+  "explore": {
+    "value": "explore",
+    "translate": "исследовать",
+    "tags": [],
+    "complexity": 0
+  },
+  "launch": {
+    "value": "launch",
+    "translate": "запускать",
+    "tags": ["oficcial"],
+    "complexity": 0
+  },
+  "to drop smoking": {
+    "value": "to drop smoking",
+    "translate": "бросить курить",
+    "tags": ["phrases"],
+    "complexity": 0
+  },
+  "attend": {
+    "value": "attend",
+    "translate": "посещать",
+    "tags": [],
+    "complexity": 0
+  },
+  "environment": {
+    "value": "environment",
+    "translate": "окружающая среда",
+    "tags": [],
+    "complexity": 0
+  },
+  "brash": {
+    "value": "brash",
+    "translate": "дерзкий",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "modest": {
+    "value": "modest",
+    "translate": "скромный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "outgoing": {
+    "value": "outgoing",
+    "translate": "общительный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "self-conscious": {
+    "value": "self-conscious",
+    "translate": "застенчивый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "dull": {
+    "value": "dull",
+    "translate": "скучный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "reflective": {
+    "value": "reflective",
+    "translate": "задумчивый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "hostile": {
+    "value": "hostile",
+    "translate": "враждебный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "timid": {
+    "value": "timid",
+    "translate": "робкий",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "brave": {
+    "value": "brave",
+    "translate": "храбрый, бравый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "obstinate": {
+    "value": "obstinate",
+    "translate": "упрямый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "bold": {
+    "value": "bold",
+    "translate": "смелый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "reserved": {
+    "value": "reserved",
+    "translate": "замкнутый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "inspired": {
+    "value": "inspired",
+    "translate": "вдохновленный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "secure": {
+    "value": "secure",
+    "translate": "безопасный, надежный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "responsible": {
+    "value": "responsible",
+    "translate": "ответственный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "patient": {
+    "value": "patient",
+    "translate": "терпеливый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "pregnant": {
+    "value": "pregnant",
+    "translate": "беременная",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "behavior": {
+    "value": "behavior",
+    "translate": "поведение",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "kind": {
+    "value": "kind",
+    "translate": "добрый, тип",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "bright": {
+    "value": "bright",
+    "translate": "способный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "witty": {
+    "value": "witty",
+    "translate": "остроумный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "silly": {
+    "value": "silly",
+    "translate": "глупый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "curious": {
+    "value": "curious",
+    "translate": "любопытный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "arrogant": {
+    "value": "arrogant",
+    "translate": "высокомерный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "sleepyhead": {
+    "value": "sleepyhead",
+    "translate": "соня",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "open-minded": {
+    "value": "open-minded",
+    "translate": "открытый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "easygoing": {
+    "value": "easygoing",
+    "translate": "с легким характером",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "shy": {
+    "value": "shy",
+    "translate": "застенчивый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "trait": {
+    "value": "trait",
+    "translate": "четра характера",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "character": {
+    "value": "character",
+    "translate": "характер",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "personality": {
+    "value": "personality",
+    "translate": "личность",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "generous": {
+    "value": "generous",
+    "translate": "щедрый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "careful": {
+    "value": "careful",
+    "translate": "осторожный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "accuracy": {
+    "value": "accuracy",
+    "translate": "точность",
+    "tags": [],
+    "complexity": 0
+  },
+  "confident": {
+    "value": "confident",
+    "translate": "уверенный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "coward": {
+    "value": "coward",
+    "translate": "трус",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "glorious": {
+    "value": "glorious",
+    "translate": "славный, великолепный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "wise": {
+    "value": "wise",
+    "translate": "мудрый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "clever": {
+    "value": "clever",
+    "translate": "умный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "cheerful": {
+    "value": "cheerful",
+    "translate": "весёлый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "irritable": {
+    "value": "irritable",
+    "translate": "раздражительный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "quiet": {
+    "value": "quiet",
+    "translate": "тихий, спокойный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "relaible": {
+    "value": "relaible",
+    "translate": "надежный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "cute": {
+    "value": "cute",
+    "translate": "милый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "sober-minded": {
+    "value": "sober-minded",
+    "translate": "здравомыслящий",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "naive": {
+    "value": "naive",
+    "translate": "наивный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "noble": {
+    "value": "noble",
+    "translate": "благородный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "rude": {
+    "value": "rude",
+    "translate": "грубый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "anxious": {
+    "value": "anxious",
+    "translate": "тревожный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "proud": {
+    "value": "proud",
+    "translate": "гордый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "gourgeous": {
+    "value": "gourgeous",
+    "translate": "шикарный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "afraid": {
+    "value": "afraid",
+    "translate": "бояться",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "astonishing": {
+    "value": "astonishing",
+    "translate": "удивительный, ошеломленный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "attractive": {
+    "value": "attractive",
+    "translate": "привлекательный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "handsome": {
+    "value": "handsome",
+    "translate": "красивый (о мужчине)",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "apearence": {
+    "value": "apearence",
+    "translate": "внешность",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "hardly ever": {
+    "value": "hardly ever",
+    "translate": "Почти никогда",
+    "tags": ["phrases"],
+    "complexity": 0
+  },
+  "rarely": {
+    "value": "rarely",
+    "translate": "редко",
+    "tags": [],
+    "complexity": 0
+  },
+  "pretty": {
+    "value": "pretty",
+    "translate": "приятный, довольно",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "ordinary": {
+    "value": "ordinary",
+    "translate": "обычный",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "talkative": {
+    "value": "talkative",
+    "translate": "болтливый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "hardworking": {
+    "value": "hardworking",
+    "translate": "трудолюбивый",
+    "tags": ["personality"],
+    "complexity": 0
+  },
+  "handle": {
+    "value": "handle",
+    "translate": "справляться, обрабатывать",
+    "tags": [],
+    "complexity": 0
+  },
+  "savor": {
+    "value": "savor",
+    "translate": "смаковать, наслаждаться",
+    "tags": [],
+    "complexity": 0
+  },
+  "embarrass": {
+    "value": "embarrass",
+    "translate": "смущать",
+    "tags": [],
+    "complexity": 0
+  },
+  "argue": {
+    "value": "argue",
+    "translate": "спорить,доказывать",
+    "tags": [],
+    "complexity": 0
+  },
+  "flatter": {
+    "value": "flatter",
+    "translate": "льстить",
+    "tags": [],
+    "complexity": 0
+  },
+  "abuse": {
+    "value": "abuse",
+    "translate": "оскорблять, злоупотреблять",
+    "tags": [],
+    "complexity": 0
+  },
+  "encourage": {
+    "value": "encourage",
+    "translate": "поощрять",
+    "tags": [],
+    "complexity": 10
+  },
+  "turn out": {
+    "value": "turn out",
+    "translate": "оказываться",
+    "tags": [],
+    "complexity": 0
+  },
+  "find out": {
+    "value": "find out",
+    "translate": "выяснять, узнавать",
+    "tags": [],
+    "complexity": 0
+  },
+  "impress": {
+    "value": "impress",
+    "translate": "впечатлять",
+    "tags": [],
+    "complexity": 0
+  },
+  "join": {
+    "value": "join",
+    "translate": "присоединяться",
+    "tags": [],
+    "complexity": 0
+  },
+  "enjoy": {
+    "value": "enjoy",
+    "translate": "наслаждаться",
+    "tags": [],
+    "complexity": 0
+  },
+  "fabulous": {
+    "value": "fabulous",
+    "translate": "поразительнй",
+    "tags": [],
+    "complexity": 8
+  },
+  "in person": {
+    "value": "in person",
+    "translate": "лично, в живую",
+    "tags": [],
+    "complexity": 0
+  },
+  "early": {
+    "value": "early",
+    "translate": "рано",
+    "tags": [],
+    "complexity": 0
+  },
+  "don't be late": {
+    "value": "don't be late",
+    "translate": "Не опаздывайте",
+    "tags": ["phrases"],
+    "complexity": 0
+  },
+  "arrive": {
+    "value": "arrive",
+    "translate": "прибывать",
+    "tags": ["travel"],
+    "complexity": 0
   }
 }

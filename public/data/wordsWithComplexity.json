@@ -1,4 +1,94 @@
 {
+  "artificial intelligence": {
+    "value": "artificial intelligence",
+    "translate": "искусственный интеллект",
+    "tags": ["IT"],
+    "complexity": 4
+  },
+  "immersive": {
+    "value": "immersive",
+    "translate": "погружающий",
+    "tags": [],
+    "complexity": 8
+  },
+  "buzzword": {
+    "value": "buzzword",
+    "translate": "модное словечко",
+    "tags": [],
+    "complexity": 4
+  },
+  "lonely": {
+    "value": "lonely",
+    "translate": "одинокий",
+    "tags": ["personality"],
+    "complexity": 2
+  },
+  "lovely": {
+    "value": "lovely",
+    "translate": "прекрасный",
+    "tags": ["personality"],
+    "complexity": 4
+  },
+  "more/less likely": {
+    "value": "more/less likely",
+    "translate": "более/менее вероятно",
+    "tags": [],
+    "complexity": 4
+  },
+  "lively vivid": {
+    "value": "lively vivid",
+    "translate": "яркий, живой",
+    "tags": ["personality"],
+    "complexity": 7
+  },
+  "subtle": {
+    "value": "subtle",
+    "translate": "утончённый, неуловимый",
+    "tags": [],
+    "complexity": 8
+  },
+  "crucial": {
+    "value": "crucial",
+    "translate": "ключевой",
+    "tags": [],
+    "complexity": 6
+  },
+  "incredible": {
+    "value": "incredible",
+    "translate": "невероятный",
+    "tags": ["personality"],
+    "complexity": 4
+  },
+  "headset": {
+    "value": "headset",
+    "translate": "гарнитура",
+    "tags": [],
+    "complexity": 5
+  },
+  "remarkable": {
+    "value": "remarkable",
+    "translate": "замечательный, заметно",
+    "tags": [],
+    "complexity": 6
+  },
+  "tweak": {
+    "value": "tweak",
+    "translate": "подправить",
+    "tags": ["job"],
+    "complexity": 8
+  },
+  "kind of sort of": {
+    "value": "kind of sort of",
+    "translate": "что-то вроде",
+    "tags": [],
+    "complexity": 4
+  },
+  "lack of": {
+    "value": "lack of",
+    "translate": "отсутствие",
+    "tags": ["job"],
+    "complexity": 6
+  },
   "i suppose": {
     "value": "i suppose",
     "translate": "я предполагаю",
@@ -19,9 +109,15 @@
   },
   "i must admit": {
     "value": "i must admit",
-    "translate": "я должен признать",
+    "translate": "я должен признать (соглашаться)",
     "tags": ["phrases"],
     "complexity": 7
+  },
+  "i must confess": {
+    "value": "i must confess",
+    "translate": "я должен признаться (исповедаться)",
+    "tags": ["phrases"],
+    "complexity": 8
   },
   "far": {
     "value": "far",
@@ -107,11 +203,11 @@
     "tags": [],
     "complexity": 7
   },
-  "loyalty": {
-    "value": "loyalty",
-    "translate": "верность",
-    "tags": [],
-    "complexity": 5
+  "dedicated loyal": {
+    "value": "dedicated loyal",
+    "translate": "преданный, привязанный",
+    "tags": ["personality"],
+    "complexity": 10
   },
   "royalty": {
     "value": "royalty",
@@ -175,7 +271,7 @@
   },
   "spread": {
     "value": "spread",
-    "translate": "pаспространять",
+    "translate": "распространять",
     "tags": [],
     "complexity": 4
   },
@@ -215,12 +311,6 @@
     "tags": [],
     "complexity": 2
   },
-  "likely": {
-    "value": "likely",
-    "translate": "вероятно",
-    "tags": [],
-    "complexity": 4
-  },
   "unacceptable": {
     "value": "unacceptable",
     "translate": "неприемлемый",
@@ -229,13 +319,13 @@
   },
   "i rate the chance of ...": {
     "value": "i rate the chance of ...",
-    "translate": "Я оцениваю вероятность…",
+    "translate": "я оцениваю вероятность…",
     "tags": ["phrases"],
     "complexity": 5
   },
   "slightly": {
     "value": "slightly",
-    "translate": "немного",
+    "translate": "немного, слегка",
     "tags": [],
     "complexity": 7
   },
@@ -287,7 +377,6 @@
     "tags": [],
     "complexity": 4
   },
-
   "accomplish": {
     "value": "accomplish",
     "translate": "выполнить, достигать",
@@ -299,12 +388,6 @@
     "translate": "иметь тенденцию",
     "tags": [],
     "complexity": 7
-  },
-  "i must confess": {
-    "value": "i must confess",
-    "translate": "я должен признаться",
-    "tags": ["phrases"],
-    "complexity": 8
   },
   "not at all": {
     "value": "not at all",
@@ -334,13 +417,13 @@
     "value": "recognize",
     "translate": "распознавать, признавать",
     "tags": [],
-    "complexity": 8
+    "complexity": 10
   },
   "regrets": {
     "value": "regrets",
     "translate": "сожаления",
     "tags": ["relations"],
-    "complexity": 6
+    "complexity": 9
   },
   "i wish i was a ..., but i wasn't.": {
     "value": "i wish i was a ..., but i wasn't.",
@@ -595,8 +678,8 @@
     "tags": [],
     "complexity": 8
   },
-  "engage": {
-    "value": "engage",
+  "engage involve": {
+    "value": "engage involve",
     "translate": "привлекать",
     "tags": [],
     "complexity": 8
@@ -624,12 +707,6 @@
     "translate": "я буду",
     "tags": ["travel", "phrases"],
     "complexity": 4
-  },
-  "lovely": {
-    "value": "lovely",
-    "translate": "прекрасно",
-    "tags": [],
-    "complexity": 6
   },
   "half past seven": {
     "value": "half past seven",
@@ -1021,8 +1098,8 @@
     "tags": ["personality"],
     "complexity": 2
   },
-  "complicated": {
-    "value": "complicated",
+  "complicated complex": {
+    "value": "complicated complex",
     "translate": "сложный",
     "tags": [],
     "complexity": 5
@@ -1243,12 +1320,6 @@
     "tags": ["personality"],
     "complexity": 5
   },
-  "dedicated loyal": {
-    "value": "dedicated loyal",
-    "translate": "преданный привязанный",
-    "tags": ["personality"],
-    "complexity": 10
-  },
   "consume": {
     "value": "consume",
     "translate": "расходовать потреблять",
@@ -1447,8 +1518,8 @@
     "tags": ["adverbs"],
     "complexity": 8
   },
-  "quite": {
-    "value": "quite",
+  "quite rather fairly pretty": {
+    "value": "quite rather fairly pretty",
     "translate": "довольно",
     "tags": ["adverbs"],
     "complexity": 8

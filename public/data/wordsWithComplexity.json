@@ -1,4 +1,184 @@
 {
+  "along": {
+    "value": "along",
+    "translate": "вдоль, вместе",
+    "tags": ["preposition"],
+    "complexity": 5
+  },
+  "generation": {
+    "value": "generation",
+    "translate": "поколение",
+    "tags": ["personality"],
+    "complexity": 5
+  },
+  "gen z": {
+    "value": "gen z",
+    "translate": "поколение Z",
+    "tags": ["personality"],
+    "complexity": 5
+  },
+  "interact": {
+    "value": "interact",
+    "translate": "взаимодействовать",
+    "tags": [],
+    "complexity": 8
+  },
+  "represent": {
+    "value": "represent",
+    "translate": "представлять, изображать",
+    "tags": [],
+    "complexity": 6
+  },
+  "transition": {
+    "value": "transition",
+    "translate": "переход",
+    "tags": ["IT", "travel"],
+    "complexity": 5
+  },
+  "unlike": {
+    "value": "unlike",
+    "translate": "в отличие от",
+    "tags": [],
+    "complexity": 7
+  },
+  "being": {
+    "value": "being",
+    "translate": "существо",
+    "tags": [],
+    "complexity": 5
+  },
+  "being part of": {
+    "value": "being part of",
+    "translate": "быть частью",
+    "tags": ["phrases"],
+    "complexity": 0
+  },
+  "augmented reality": {
+    "value": "augmented reality",
+    "translate": "дополненная реальность",
+    "tags": ["IT"],
+    "complexity": 6
+  },
+  "digit": {
+    "value": "digit",
+    "translate": "цифра",
+    "tags": ["IT"],
+    "complexity": 3
+  },
+  "digital world": {
+    "value": "digital world",
+    "translate": "цифровой мир",
+    "tags": ["phrases"],
+    "complexity": 2
+  },
+  "more demand": {
+    "value": "more demand",
+    "translate": "больше спроса",
+    "tags": ["finance"],
+    "complexity": 8
+  },
+  "dimension": {
+    "value": "dimension",
+    "translate": "измерение",
+    "tags": ["IT"],
+    "complexity": 8
+  },
+  "three-dimensional": {
+    "value": "three-dimensional",
+    "translate": "трехмерный",
+    "tags": ["IT"],
+    "complexity": 7
+  },
+  "land": {
+    "value": "land",
+    "translate": "земля",
+    "tags": [],
+    "complexity": 8
+  },
+  "compare": {
+    "value": "compare",
+    "translate": "сравнивать",
+    "tags": [],
+    "complexity": 3
+  },
+  "science fiction": {
+    "value": "science fiction",
+    "translate": "научная фантастика",
+    "tags": [],
+    "complexity": 5
+  },
+  "fully fledged": {
+    "value": "fully fledged",
+    "translate": "полноценный",
+    "tags": ["personality"],
+    "complexity": 8
+  },
+  "look more like": {
+    "value": "look more like",
+    "translate": "больше похож",
+    "tags": ["personality", "phrases"],
+    "complexity": 5
+  },
+  "far from dull": {
+    "value": "far from dull",
+    "translate": "далеко не скучно",
+    "tags": ["phrases"],
+    "complexity": 7
+  },
+  "appears to surround": {
+    "value": "appears to surround",
+    "translate": "кажется окружает",
+    "tags": ["phrases"],
+    "complexity": 8
+  },
+  "surround": {
+    "value": "surround",
+    "translate": "окружать",
+    "tags": [],
+    "complexity": 7
+  },
+  "suspense": {
+    "value": "suspense",
+    "translate": "неизвестность, ожидание",
+    "tags": [],
+    "complexity": 6
+  },
+  "sour": {
+    "value": "sour",
+    "translate": "кислый",
+    "tags": [],
+    "complexity": 8
+  },
+  "get along with ": {
+    "value": "get along with ",
+    "translate": "ладить",
+    "tags": ["phrases", "personality"],
+    "complexity": 7
+  },
+  "get on with": {
+    "value": "get on with",
+    "translate": "ужиться",
+    "tags": ["phrases", "personality"],
+    "complexity": 7
+  },
+  "hang out with": {
+    "value": "hang out with",
+    "translate": "тусоваться с",
+    "tags": ["personality"],
+    "complexity": 6
+  },
+  "left": {
+    "value": "left",
+    "translate": "осталось",
+    "tags": [],
+    "complexity": 3
+  },
+  "expires": {
+    "value": "expires",
+    "translate": "истекает",
+    "tags": ["travel"],
+    "complexity": 5
+  },
   "artificial intelligence": {
     "value": "artificial intelligence",
     "translate": "искусственный интеллект",
@@ -257,8 +437,8 @@
     "tags": [],
     "complexity": 3
   },
-  "outbreak": {
-    "value": "outbreak",
+  "outbreak flash": {
+    "value": "outbreak flash",
     "translate": "вспышка",
     "tags": [],
     "complexity": 9
@@ -992,7 +1172,7 @@
   },
   "specific particular": {
     "value": "specific particular",
-    "translate": "конкретный",
+    "translate": "конкретный, особый, частный",
     "tags": [],
     "complexity": 10
   },

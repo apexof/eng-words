@@ -1,4 +1,214 @@
 {
+  "prohibit": {
+    "value": "prohibit",
+    "translate": "запретить",
+    "tags": ["official"],
+    "complexity": 8
+  },
+  "decline reject deny": {
+    "value": "decline reject deny",
+    "translate": "отклонить",
+    "tags": ["official"],
+    "complexity": 8
+  },
+  "wet": {
+    "value": "wet",
+    "translate": "влажный",
+    "tags": [],
+    "complexity": 6
+  },
+  "warm": {
+    "value": "warm",
+    "translate": "теплый",
+    "tags": [],
+    "complexity": 2
+  },
+  "perhaps": {
+    "value": "perhaps",
+    "translate": "возможно",
+    "tags": [],
+    "complexity": 6
+  },
+  "relate": {
+    "value": "relate",
+    "translate": "относиться",
+    "tags": ["personality", "relations"],
+    "complexity": 3
+  },
+  "indeed": {
+    "value": "indeed",
+    "translate": "действительно",
+    "tags": [],
+    "complexity": 6
+  },
+  "miserable": {
+    "value": "miserable",
+    "translate": "убогий",
+    "tags": ["personality"],
+    "complexity": 5
+  },
+  "informal": {
+    "value": "informal",
+    "translate": "неофициальный",
+    "tags": [],
+    "complexity": 5
+  },
+  "till": {
+    "value": "till",
+    "translate": "до",
+    "tags": ["preposition"],
+    "complexity": 8
+  },
+  "inquiring": {
+    "value": "inquiring",
+    "translate": "вопрошающий",
+    "tags": [],
+    "complexity": 8
+  },
+  "those": {
+    "value": "those",
+    "translate": "те",
+    "tags": ["preposition"],
+    "complexity": 5
+  },
+  "certain": {
+    "value": "certain",
+    "translate": "некий",
+    "tags": [],
+    "complexity": 7
+  },
+  "expressions": {
+    "value": "expressions",
+    "translate": "выражения",
+    "tags": [],
+    "complexity": 5
+  },
+  "suggestion": {
+    "value": "suggestion",
+    "translate": "предположение",
+    "tags": [],
+    "complexity": 7
+  },
+  "putting forward": {
+    "value": "putting forward",
+    "translate": "выдвижение",
+    "tags": ["official", "job"],
+    "complexity": 9
+  },
+  "did you end up getting that?": {
+    "value": "did you end up getting that?",
+    "translate": "ты в итоге получил это?",
+    "tags": ["phrases"],
+    "complexity": 4
+  },
+  "applied for": {
+    "value": "applied for",
+    "translate": "подал заявку на",
+    "tags": ["official"],
+    "complexity": 5
+  },
+  "got stolen": {
+    "value": "got stolen",
+    "translate": "украли",
+    "tags": [],
+    "complexity": 6
+  },
+  "suit up": {
+    "value": "suit up",
+    "translate": "приодеться",
+    "tags": [],
+    "complexity": 5
+  },
+  "to be able": {
+    "value": "to be able",
+    "translate": "иметь возможность",
+    "tags": ["phrases"],
+    "complexity": 5
+  },
+  "more than anywhere else": {
+    "value": "more than anywhere else",
+    "translate": "больше чем где -либо еще",
+    "tags": ["phrases"],
+    "complexity": 5
+  },
+  "the purpose of arrival": {
+    "value": "the purpose of arrival",
+    "translate": "цель прибытия",
+    "tags": ["travel"],
+    "complexity": 4
+  },
+  "сome up with": {
+    "value": "сome up with",
+    "translate": "придумать",
+    "tags": ["phrases"],
+    "complexity": 9
+  },
+  "i haven’t seen them for ages": {
+    "value": "i haven’t seen them for ages",
+    "translate": "я не видел их целую вечность",
+    "tags": ["small talk"],
+    "complexity": 6
+  },
+  "i will drop you a line": {
+    "value": "i will drop you a line",
+    "translate": "я напишу тебе пару строк",
+    "tags": ["small talk"],
+    "complexity": 6
+  },
+  "lets catch up": {
+    "value": "lets catch up",
+    "translate": "давай пересечемся",
+    "tags": ["small talk"],
+    "complexity": 5
+  },
+  "open to allow the conversation": {
+    "value": "open to allow the conversation",
+    "translate": "открыт к разговору",
+    "tags": ["small talk"],
+    "complexity": 7
+  },
+  "give my regards to your sister": {
+    "value": "give my regards to your sister",
+    "translate": "передай привет твоей сестре",
+    "tags": ["small talk"],
+    "complexity": 5
+  },
+  "long time no see": {
+    "value": "long time no see",
+    "translate": "давно не виделись",
+    "tags": ["small talk"],
+    "complexity": 3
+  },
+  "they really suit you": {
+    "value": "they really suit you",
+    "translate": "они действительно идут тебе",
+    "tags": ["small talk"],
+    "complexity": 5
+  },
+  "what brings you here?": {
+    "value": "what brings you here?",
+    "translate": "что привело тебя сюда?",
+    "tags": ["small talk"],
+    "complexity": 5
+  },
+  "great to see you again": {
+    "value": "great to see you again",
+    "translate": "здорово видеть вас снова",
+    "tags": ["small talk"],
+    "complexity": 5
+  },
+  "i’m going (gonna) to Israel": {
+    "value": "i’m going (gonna) to Israel",
+    "translate": "я собираюсь в Израиль",
+    "tags": ["phrases"],
+    "complexity": 5
+  },
+  "fancy": {
+    "value": "fancy",
+    "translate": "изысканный клевый",
+    "tags": ["personality"],
+    "complexity": 6
+  },
   "along": {
     "value": "along",
     "translate": "вдоль, вместе",
@@ -800,7 +1010,7 @@
   "deal": {
     "value": "deal",
     "translate": "по рукам, сделка, дело, предложение",
-    "tags": ["job", "oficcial", "finance"],
+    "tags": ["job", "official", "finance"],
     "complexity": 2
   },
   "mean": {
@@ -848,7 +1058,7 @@
   "accept": {
     "value": "accept",
     "translate": "принимать",
-    "tags": ["oficcial"],
+    "tags": ["official"],
     "complexity": 4
   },
 
@@ -969,7 +1179,7 @@
   "announcement": {
     "value": "announcement",
     "translate": "объявление",
-    "tags": ["oficcial"],
+    "tags": ["official"],
     "complexity": 4
   },
   "decade": {
@@ -1059,7 +1269,7 @@
   "high profile people": {
     "value": "high profile people",
     "translate": "известные люди",
-    "tags": ["oficcial", "personality"],
+    "tags": ["official", "personality"],
     "complexity": 6
   },
   "concern": {
@@ -1170,11 +1380,17 @@
     "tags": [],
     "complexity": 10
   },
-  "specific particular": {
-    "value": "specific particular",
-    "translate": "конкретный, особый, частный",
+  "specific": {
+    "value": "specific",
+    "translate": "конкретный, определенный",
     "tags": [],
-    "complexity": 10
+    "complexity": 4
+  },
+  "particular": {
+    "value": "particular",
+    "translate": "особый, частный",
+    "tags": [],
+    "complexity": 8
   },
   "common": {
     "value": "common",
@@ -1737,13 +1953,13 @@
   "embassy": {
     "value": "embassy",
     "translate": "посольство",
-    "tags": ["oficcial"],
+    "tags": ["official"],
     "complexity": 6
   },
   "resident's permit": {
     "value": "resident's permit",
     "translate": "вид на жительство",
-    "tags": ["oficcial"],
+    "tags": ["official"],
     "complexity": 8
   },
   "unemployed": {
@@ -1761,19 +1977,19 @@
   "stock exchange": {
     "value": "stock exchange",
     "translate": "фондовая биржа",
-    "tags": ["oficcial"],
+    "tags": ["official"],
     "complexity": 5
   },
   "go bankrupt": {
     "value": "go bankrupt",
     "translate": "обанкротиться",
-    "tags": ["oficcial"],
+    "tags": ["official"],
     "complexity": 3
   },
   "apply documents": {
     "value": "apply documents",
     "translate": "подавать документы",
-    "tags": ["oficcial"],
+    "tags": ["official"],
     "complexity": 6
   },
   "brick": {
@@ -1971,7 +2187,7 @@
   "launch": {
     "value": "launch",
     "translate": "запускать",
-    "tags": ["oficcial"],
+    "tags": ["official"],
     "complexity": 0
   },
   "to drop smoking": {

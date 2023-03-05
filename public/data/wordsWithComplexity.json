@@ -1,4 +1,136 @@
 {
+  "microwave": {
+    "value": "микроволновка",
+    "translate": "микроволновка",
+    "tags": ["home"],
+    "complexity": 3
+  },
+  "tap": {
+    "value": "tap",
+    "translate": "кран",
+    "tags": ["home"],
+    "complexity": 9
+  },
+  "cupboards": {
+    "value": "cupboards",
+    "translate": "шкафы",
+    "tags": ["home"],
+    "complexity": 8
+  },
+  "kettle": {
+    "value": "kettle",
+    "translate": "чайник",
+    "tags": ["home"],
+    "complexity": 3
+  },
+  "sink": {
+    "value": "sink",
+    "translate": "раковина",
+    "tags": ["home"],
+    "complexity": 9
+  },
+  "tiles": {
+    "value": "tiles",
+    "translate": "черепица, плитка",
+    "tags": ["home"],
+    "complexity": 10
+  },
+  "cooker": {
+    "value": "cooker",
+    "translate": "плита",
+    "tags": ["home"],
+    "complexity": 8
+  },
+  "fridge": {
+    "value": "fridge",
+    "translate": "холодильник",
+    "tags": ["home"],
+    "complexity": 3
+  },
+  "freezer": {
+    "value": "freezer",
+    "translate": "морозильник",
+    "tags": ["home"],
+    "complexity": 3
+  },
+  "cushion": {
+    "value": "cushion",
+    "translate": "подушка (для дивана)",
+    "tags": ["home"],
+    "complexity": 9
+  },
+  "pillow": {
+    "value": "pillow",
+    "translate": "подушка (для сна)",
+    "tags": ["home"],
+    "complexity": 7
+  },
+  "sofa": {
+    "value": "sofa",
+    "translate": "диван",
+    "tags": ["home"],
+    "complexity": 2
+  },
+  "firm/soft armchair": {
+    "value": "firm/soft armchair",
+    "translate": "твердое/мягкое кресло",
+    "tags": ["home"],
+    "complexity": 8
+  },
+  "wooden floor": {
+    "value": "wooden floor",
+    "translate": "деревянный пол",
+    "tags": ["home"],
+    "complexity": 2
+  },
+  "rug": {
+    "value": "rug",
+    "translate": "коврик",
+    "tags": ["home"],
+    "complexity": 9
+  },
+  "carpet": {
+    "value": "carpet",
+    "translate": "ковер",
+    "tags": ["home"],
+    "complexity": 9
+  },
+  "curtains": {
+    "value": "curtains",
+    "translate": "шторы",
+    "tags": ["home"],
+    "complexity": 9
+  },
+  "blinds": {
+    "value": "blinds",
+    "translate": "жалюзи",
+    "tags": ["home"],
+    "complexity": 5
+  },
+  "duvet": {
+    "value": "duvet",
+    "translate": "одеяло",
+    "tags": ["home"],
+    "complexity": 8
+  },
+  "sheet": {
+    "value": "sheet",
+    "translate": "простыня, лист",
+    "tags": ["home"],
+    "complexity": 8
+  },
+  "blanket": {
+    "value": "blanket",
+    "translate": "одеяло",
+    "tags": ["home"],
+    "complexity": 8
+  },
+  "oven": {
+    "value": "oven",
+    "translate": "духовка",
+    "tags": ["home"],
+    "complexity": 4
+  },
   "prohibit": {
     "value": "prohibit",
     "translate": "запретить",
@@ -31,7 +163,7 @@
   },
   "relate": {
     "value": "relate",
-    "translate": "относиться",
+    "translate": "относиться (иметь связь с)",
     "tags": ["personality", "relations"],
     "complexity": 3
   },

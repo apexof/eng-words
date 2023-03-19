@@ -1,4 +1,82 @@
 {
+  "cuisine": {
+    "value": "cuisine",
+    "translate": "кухня (национальная)",
+    "tags": ["home"],
+    "complexity": 7
+  },
+  "porridge": {
+    "value": "porridge",
+    "translate": "каша",
+    "tags": ["home"],
+    "complexity": 7
+  },
+  "oatmeal": {
+    "value": "oatmeal",
+    "translate": "овсянка",
+    "tags": ["home"],
+    "complexity": 6
+  },
+  "mashed potato": {
+    "value": "mashed potato",
+    "translate": "пюре",
+    "tags": ["home"],
+    "complexity": 5
+  },
+  "offence": {
+    "value": "offence",
+    "translate": "обида",
+    "tags": ["relations"],
+    "complexity": 8
+  },
+  "offensive": {
+    "value": "offensive",
+    "translate": "обидный",
+    "tags": ["personality"],
+    "complexity": 8
+  },
+  "pride": {
+    "value": "pride",
+    "translate": "гордость",
+    "tags": ["personality"],
+    "complexity": 5
+  },
+  "be proud": {
+    "value": "be proud",
+    "translate": "гордиться",
+    "tags": ["personality"],
+    "complexity": 5
+  },
+  "breathe": {
+    "value": "breathe",
+    "translate": "дашыть",
+    "tags": ["body parts"],
+    "complexity": 4
+  },
+  "breath": {
+    "value": "breath",
+    "translate": "дыхание",
+    "tags": ["body parts"],
+    "complexity": 4
+  },
+  "afford": {
+    "value": "afford",
+    "translate": "позволять (финансово)",
+    "tags": ["finance"],
+    "complexity": 7
+  },
+  "allow": {
+    "value": "allow",
+    "translate": "позволять",
+    "tags": [],
+    "complexity": 5
+  },
+  "note": {
+    "value": "note",
+    "translate": "купюра, заметка",
+    "tags": ["finance", "official"],
+    "complexity": 4
+  },
   "microwave": {
     "value": "микроволновка",
     "translate": "микроволновка",
@@ -587,6 +665,12 @@
     "tags": [],
     "complexity": 5
   },
+  "remarks": {
+    "value": "remarks",
+    "translate": "замечания, поправки",
+    "tags": ["job"],
+    "complexity": 6
+  },
   "remarkable": {
     "value": "remarkable",
     "translate": "замечательный, заметно",
@@ -1167,6 +1251,12 @@
     "value": "charge",
     "translate": "взымать плату, обвинять, заряжать",
     "tags": ["finance"],
+    "complexity": 8
+  },
+  "to be charge of": {
+    "value": "to be charge of",
+    "translate": "быть ответственным за",
+    "tags": ["slang"],
     "complexity": 8
   },
   "trade off": {
@@ -2751,8 +2841,8 @@
   "encourage": {
     "value": "encourage",
     "translate": "поощрять",
-    "tags": [],
-    "complexity": 10
+    "tags": ["job"],
+    "complexity": 8
   },
   "turn out": {
     "value": "turn out",

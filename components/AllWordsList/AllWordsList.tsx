@@ -11,7 +11,7 @@ export const AllWordsList: FC = () => {
   const allWords = useSelector(selectSortedAllWords);
 
   useEffect(() => {
-    fetch('data/wordsWithComplexity.json')
+    fetch('data/words100.json')
       .then(res => res.json())
       .then((res: TWordsList) => {
         dispatch(addWords({ items: res }));

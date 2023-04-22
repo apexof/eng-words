@@ -78,7 +78,7 @@
     "complexity": 4
   },
   "microwave": {
-    "value": "микроволновка",
+    "value": "microwave",
     "translate": "микроволновка",
     "tags": ["home"],
     "complexity": 3
